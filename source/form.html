@@ -8,27 +8,27 @@
 
 <body class="page__body">
   <header class="main-header">
-    <a class="main-header__logo">
-      <img src="img/logo-cat-energy.svg" width="33" height="38" alt="Интернет-магазин Cat-Energy">
-    </a>
-    <a class="page-header__logo" href="index.html">
-      <img src="img/logotype-text.svg" width="101" height="18" alt="Логотип Cat-Energy.">
-    </a>
-    <nav class="main-nav">
+    <div class="main-header__page">
+      <a class="page-header__logo" href="#">
+        <img src="img/logo-cat-energy.svg" width="33" height="38" alt="Интернет-магазин Cat-Energy">
+        <img class="page-header__logo-text" src="img/logotype-text.svg" width="101" height="18" alt="Логотип Cat-Energy" aria-hidden="true">
+      </a>
       <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+    </div>
+    <nav class="main-nav">
       <div class="main-nav__wrapper">
-        <ul class>
-          <li class="site-list__item">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__nav">
             <a href="index.html">
               Главная
             </a>
           </li>
-          <li class="site-list__item">
+          <li class="site-list__nav">
             <a href="catalog.html">
               Каталог продукции
             </a>
           </li>
-          <li class="site-list__item site-list__item--active">
+          <li class="site-list__nav site-list__nav--active">
             <a>
               Подбор программы
             </a>
@@ -144,7 +144,7 @@
               </label>
             </li>
           </ul>
-          <button class="form-field__button">Отправить заявку</button>
+          <button class="form-field__button button">Отправить заявку</button>
           <p class="form-fieldset__title">* — Обязательные поля</p>
         </div>
       </fieldset>
