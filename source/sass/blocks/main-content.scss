@@ -1,0 +1,78 @@
+.main-content {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+}
+
+.services {
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/index-background-desktop.jpg");
+  background-repeat: no-repeat;
+}
+
+.services__wrapper {
+  background-color: rgba(104, 183, 56, 0.85);
+  margin: 0;
+  padding: 0;
+}
+
+.services__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.services__subtitle {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.services__button {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #68b738;
+}
+
+.select__item  {
+  margin: 0;
+  padding: 20px;
+  color: #444444;
+}
+
+.select__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  line-height: 37px;
+  color: #000000;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+
+}
+
+.select__text {
+  margin: 0;
+  padding: 0;
+  color: #444444;
+}
+
+.select__link {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+}

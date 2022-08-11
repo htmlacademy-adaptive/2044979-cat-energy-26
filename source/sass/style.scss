@@ -1,1 +1,10 @@
-// Начните писать стили здесь
+@use "./blocks/page.scss";
+@use "./blocks/fonts.scss";
+@use "./visually-hidden";
+@use "./blocks/main-header.scss";
+@use "./blocks/main-nav.scss";
+@use "./blocks/main-content.scss";
+@use "./blocks/main-header__page.scss";
+@use "./blocks/description.scss";
+@use "./blocks/example.scss";
+@use "./blocks/main-footer.scss";
