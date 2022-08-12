@@ -1,0 +1,45 @@
+.additionally-feed {
+  margin: 0;
+  padding: 0;
+}
+
+.header-title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.additionally-feed__link-title {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.additionally-feed__specification-item {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #444444;
+  display: flex;
+}
+
+.additionally-feed__order-button {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  background: #68B738;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  width: 279px;
+  height: 40px;
+  border: none;
+}
