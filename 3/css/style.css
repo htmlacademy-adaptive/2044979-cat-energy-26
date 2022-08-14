@@ -1,0 +1,457 @@
+.page .page__body {
+  margin: 0;
+  width: 320px;
+  height: 2976px;
+}
+
+@font-face {
+  font-family: "Oswald", sans-serif;
+  src: url("../fonts/oswaldregular.woff2") format("woff2"), url("../fonts/oswaldregular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Oswald", sans-serif;
+  src: url("../fonts/oswaldregular.woff2") format("woff2"), url("../fonts/oswaldregular.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Oswald", sans-serif;
+  src: url("../fonts/oswalmedium.woff2") format("woff2"), url("../fonts/oswalmedium.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Oswald", sans-serif;
+  src: url("../fonts/oswaldregular.woff2") format("woff2"), url("../fonts/oswaldregular.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main-header {
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav {
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.main-nav__wrapper {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+}
+
+.services {
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/index-background-desktop.jpg");
+  background-repeat: no-repeat;
+}
+
+.services__wrapper {
+  background-color: rgba(104, 183, 56, 0.85);
+  margin: 0;
+  padding: 0;
+}
+
+.services__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.services__subtitle {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.services__button {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #68b738;
+}
+
+.select__item {
+  margin: 0;
+  padding: 20px;
+  color: #444444;
+}
+
+.select__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  line-height: 37px;
+  color: #000000;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.select__text {
+  margin: 0;
+  padding: 0;
+  color: #444444;
+}
+
+.select__link {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+}
+
+.main-header__page {
+  margin: 0;
+  padding: 23px 0px 24px 20px;
+}
+
+.main-header__logo-text {
+  margin-left: 57px;
+  margin-right: 65px;
+}
+
+.description {
+  margin: 0;
+  padding: 0;
+}
+
+.description__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.description__wrapper {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+}
+
+.description__list {
+  list-style-type: none;
+}
+
+.description__item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  font-style: normal;
+  color: #444444;
+}
+
+.example {
+  margin: 0;
+  background: #eaeaea;
+  padding: 20px;
+}
+
+.example__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.example__subtitle {
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.example__table {
+  margin: 0;
+  padding: 0;
+}
+
+.example__number {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.example-description {
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #444444;
+  margin: 0;
+  padding: 0;
+}
+
+.example__expenses {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-feed {
+  margin: 0;
+  padding: 0;
+}
+
+.card-feed__specification-list {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #444444;
+  margin: 0;
+  padding: 0;
+}
+
+.card-feed {
+  margin: 0;
+  padding: 0;
+}
+
+.card-feed__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.card-feed__subtitle {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #444444;
+}
+
+.card-feed__button {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  background: #f2f2f2;
+  color: #444444;
+  text-transform: uppercase;
+  width: 279px;
+  height: 40px;
+  border: none;
+}
+
+.card-feed__order-button {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  width: 280px;
+  height: 40px;
+  background: #68b738;
+  border: none;
+  color: #FFFFFF;
+}
+
+.additionally-feed {
+  margin: 0;
+  padding: 0;
+}
+
+.header-title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  color: #111111;
+}
+
+.inner-header__text {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.additionally-feed__link-title {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.additionally-feed__specification-item {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #444444;
+  display: flex;
+}
+
+.additionally-feed__order-button {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  background: #68B738;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  width: 279px;
+  height: 40px;
+  border: none;
+}
+
+.catalog-promo {
+  background-color: rgba(104, 183, 56, 0.85);
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-icon {
+  position: absolute;
+}
+
+.catalog-promo__slogan {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.form-program__fieldset-container {
+  margin: 0;
+  padding: 0;
+}
+
+.form-fieldset__button {
+  background-color: #68b738;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.form-program__fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+.form-fieldset__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  font-style: normal;
+  color: #000000;
+}
+
+.form-fieldset__container {
+  margin: 0;
+  padding: 0;
+}
+
+.form-field__label {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-style: normal;
+  color: #444444;
+  padding: 20px;
+}
+
+.form-field__input {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-style: normal;
+  color: #444444;
+  padding: 0;
+}
+
+.form-field__label--radio {
+  color: #222222;
+}
+/*# sourceMappingURL=style.css.map */
