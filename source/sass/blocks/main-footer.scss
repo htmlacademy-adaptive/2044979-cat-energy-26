@@ -1,0 +1,60 @@
+.main-footer__contacts {
+  display: flex;
+  background-color: #ffffff;
+}
+
+.main-footer__social {
+  background: #F2F2F2;
+}
+
+.main-footer__text {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #111111;
+  margin: 0;
+  padding: 26px 2px 26px 13px;
+}
+
+.main-footer__adress {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444444;
+  padding: 26px 20px 26px 0px;
+
+}
+
+.main-footer__logo--icon {
+  padding: 39px 96px 32px 96px;
+}
+
+.social {
+  list-style-type: none;
+  display: flex;
+  padding: 20px 94px 21px 94px;
+  margin: 0;
+}
+
+.social__item--vkontakte {
+  padding-right: 24px;
+}
+
+.social__item--youtube {
+  padding-right: 26px;
+}
+
+.social__item--telegramm {
+  padding: 0;
+}
+
+.main-footer__rights {
+  padding: 22px 20px 22px 19px;
+}
+
+.main-footer__right-link {
+  margin-right: 140px;
+}

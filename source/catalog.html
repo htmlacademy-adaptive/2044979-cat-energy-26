@@ -20,17 +20,17 @@
     <nav class="main-nav">
       <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
-          <li class="site-list__nav">
+          <li class="site-list__nav site-list-major">
             <a href="index.html">
               Главная
             </a>
           </li>
-          <li class="site-list__nav site-list__nav--active">
+          <li class="site-list__nav site-list-catalog site-list__nav--active">
             <a>
               Каталог продукции
             </a>
           </li>
-          <li class="site-list__nav">
+          <li class="site-list__nav site-list-program">
             <a href="form.html">
               Подбор программы
             </a>
@@ -67,6 +67,8 @@
                 <dd class="card-feed__value">700 Р.</dd>
               </div>
             </dl>
+          </div>
+          <div class="card-feed__batton">
             <button class="card-feed__order-button button">заказать</button>
           </div>
         </article>
@@ -93,6 +95,8 @@
                 <dd class="card-feed__value">1000 Р.</dd>
               </div>
             </dl>
+          </div>
+          <div class="card-feed__batton">
             <button class="card-feed__order-button button">заказать</button>
           </div>
         </article>
@@ -119,6 +123,8 @@
                 <dd class="card-feed__value">700 Р.</dd>
               </div>
             </dl>
+          </div>
+          <div class="card-feed__batton">
             <button class="card-feed__order-button button">заказать</button>
           </div>
         </article>
@@ -145,6 +151,8 @@
                 <dd class="card-feed__value">1000 Р.</dd>
               </div>
             </dl>
+          </div>
+          <div class="card-feed__batton">
             <button class="card-feed__order-button button">заказать</button>
           </div>
         </article>
@@ -171,6 +179,8 @@
                 <dd class="card-feed__value">400 Р.</dd>
               </div>
             </dl>
+          </div>
+          <div class="card-feed__batton">
             <button class="card-feed__order-button button">заказать</button>
           </div>
         </article>
@@ -197,6 +207,8 @@
                 <dd class="card-feed__value">700 Р.</dd>
               </div>
             </dl>
+          </div>
+          <div class="card-feed__batton">
             <button class="card-feed__order-button button">заказать</button>
           </div>
         </article>
@@ -223,6 +235,8 @@
                 <dd class="card-feed__value">500 Р.</dd>
               </div>
             </dl>
+          </div>
+          <div class="card-feed__batton">
             <button class="card-feed__order-button button">заказать</button>
           </div>
         </article>
@@ -299,20 +313,20 @@
       </section>
     </div>
   </main>
-  <footer class="main-footer">
-    <div class="main-footer__contacts container">
+  <footer class="main-footer container">
+    <div class="main-footer__contacts">
       <p class="main-footer__text">Приглашаем к сотрудничеству дилеров!</p>
       <address class="main-footer__adress">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
     </div>
     <div class="main-footer__map">
       <img src="img/location.jpg" width="320" height="362" alt="Местонахождение">
     </div>
-    <div class="main-footer__social container">
+    <div class="main-footer__social">
       <a class="main-footer__logo-title">
-        <img src="img/logotype-text.svg" width="128" height="24" alt="Логотип Cat-Energy.">
+        <img class="main-footer__icon" src="img/logotype-text.svg" width="128" height="24" alt="Логотип Cat-Energy.">
       </a>
       <ul class="main-footer__social social">
-        <li class="social__item">
+        <li class="social__item social__item--vkontakte">
           <a class="social__link" href="https://vk.com/htmlacademy"></a>
           <svg width="28" height="22" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -320,7 +334,7 @@
               fill="#666" />
           </svg>
         </li>
-        <li class="social__item">
+        <li class="social__item social__item--youtube">
           <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru"></a>
           <svg width="28" height="22" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -328,7 +342,7 @@
               fill="#666" />
           </svg>
         </li>
-        <li class="social__item">
+        <li class="social__item social__item--telegramm">
           <a class="social__link" href="https://t.me/htmlacademy"></a>
           <svg width="28" height="22" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd"

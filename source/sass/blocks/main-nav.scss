@@ -1,7 +1,5 @@
 .main-nav{
   font-family: "Oswald", sans-serif;
-  margin: 0;
-  padding: 0;
   text-align: center;
 }
 
@@ -14,4 +12,16 @@
 .main-nav__list {
   margin: 0;
   padding: 0;
+}
+
+.site-list-major{
+  padding: 23px 122px 23px 122px;
+}
+
+.site-list-catalog {
+  padding: 23px 70px 23px 70px;
+}
+
+.site-list-program {
+  padding: 23px 70px 23px 70px;
 }
