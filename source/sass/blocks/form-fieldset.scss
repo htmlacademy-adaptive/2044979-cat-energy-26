@@ -11,7 +11,7 @@
   text-transform: uppercase;
   font-style: normal;
   color: #444444;
-  padding: 20px;
+  padding: 13px;
 }
 
 .form-field__input {
@@ -27,4 +27,46 @@
 
 .form-field__label--radio {
   color: #222222;
+}
+
+.title-line {
+  padding-right: 91px;
+  padding-bottom: 35px;
+}
+
+.form-field__post {
+  padding: 13px 14px 16px 0px;
+}
+
+.form-field__contact {
+  padding: 14px 14px 16px 16px;
+}
+
+.form-fieldset__comments {
+  padding-top: 23px;
+  padding-right: 22px;
+  padding-bottom: 37px;
+}
+
+.form-field__textarea {
+  padding: 9px 12px 125px 15px;
+  border: 1px solid #E7E7E7;
+}
+
+.form-fieldset__additionally {
+  padding-top: 23px;
+  padding-right: 23px;
+  padding-bottom: 34px;
+}
+
+.form-fieldset__necessarily {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  padding: 21px 61px 32px 61px;
+  margin: 0;
 }

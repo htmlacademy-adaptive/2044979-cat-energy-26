@@ -1,8 +1,3 @@
-.additionally-feed {
-  margin: 0;
-  padding: 0;
-}
-
 .header-title {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
@@ -21,6 +16,18 @@
   color: #000000;
 }
 
+.additionally-feed__text {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  padding: 25px 22px 36px 0;
+}
+
+
 .additionally-feed__link-title {
   font-family: "Oswald", sans-serif;
   font-style: normal;
@@ -29,6 +36,23 @@
   line-height: 16px;
   text-transform: uppercase;
   color: #222222;
+  padding: 13px 149px 13px 0;
+}
+
+.additionally-feed__one {
+  padding-right: 125px;
+}
+
+.additionally-feed__two {
+  padding-right: 182px;
+}
+
+.additionally-feed__three {
+  padding-right: 181px;
+}
+
+.additionally-feed__four {
+  padding-right: 116px;
 }
 
 .additionally-feed__specification-item {
@@ -49,7 +73,6 @@
   background: #68B738;
   color: #FFFFFF;
   text-transform: uppercase;
-  width: 279px;
-  height: 40px;
+  padding: 10px 129px;
   border: none;
 }

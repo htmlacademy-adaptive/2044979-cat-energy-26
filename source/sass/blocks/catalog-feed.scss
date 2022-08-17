@@ -23,14 +23,22 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  align-items: center;
-  text-transform: uppercase;
 }
-
 
 .card-feed {
   margin: 0;
   padding: 0;
+}
+
+.card-feed__catalog {
+  display: flex;
+  padding: 14px 36px 12px 36px;
+}
+
+.card-feed__container-text {
+  display: flex;
+  padding-bottom: 13px;
+  padding-top: 11px;
 }
 
 .card-feed__title {
@@ -42,12 +50,26 @@
   color: #111111;
 }
 
+.card-feed__product {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111111;
+  padding: 78px 37px 8px 20px;
+  margin: 0;
+}
+
 .card-feed__subtitle {
   font-family: "Arial", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   color: #444444;
+  margin: 0;
+  padding: 0px 29px 21px 30px;
 }
 
 .card-feed__button {
@@ -59,9 +81,8 @@
   background: #f2f2f2;
   color: #444444;
   text-transform: uppercase;
-  width: 279px;
-  height: 40px;
   border: none;
+  padding: 10px 94px;
 }
 
 .card-feed__order-button {
@@ -70,8 +91,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  width: 280px;
-  height: 40px;
+  padding: 10px 129px;
   background: #68b738;
   border: none;
   color: #FFFFFF;
