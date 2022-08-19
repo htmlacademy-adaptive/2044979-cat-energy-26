@@ -1,0 +1,79 @@
+.card-feed__specification-list {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #444444;
+  margin: 0;
+  padding: 0;
+}
+
+.card-feed__specification-item {
+  display: flex;
+}
+
+.card-feed__link-title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.card-feed {
+  margin: 0;
+  padding: 0;
+}
+
+.card-feed__catalog {
+  display: flex;
+  padding: 14px 36px 12px 36px;
+}
+
+.card-feed__container-text {
+  display: flex;
+  padding-bottom: 13px;
+  padding-top: 11px;
+}
+
+.card-feed__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.card-feed__product {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111111;
+  padding: 78px 37px 8px 20px;
+  margin: 0;
+}
+
+.card-feed__subtitle {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #444444;
+  margin: 0;
+  padding: 0px 29px 21px 30px;
+}
+
+.card-feed__button {
+  background: #f2f2f2;
+  color: #444444;
+  width: 100%;
+  padding: 10px 30px;
+}
+
+.card-feed__order-button {
+  padding: 10px 30px;
+  width: 100%;
+}

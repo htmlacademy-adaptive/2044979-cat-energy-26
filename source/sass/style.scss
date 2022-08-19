@@ -1,5 +1,4 @@
 @use "./blocks/page.scss";
-@use "./blocks/fonts.scss";
 @use "./visually-hidden";
 @use "./blocks/main-header.scss";
 @use "./blocks/main-nav.scss";
@@ -14,3 +13,8 @@
 @use "./blocks/form-program__fieldset.scss";
 @use "./blocks/form-fieldset.scss";
 @use "./blocks/main-footer.scss";
+@use "./blocks/card-feed.scss";
+@use "./blocks/inner-header.scss";
+@use "./blocks/select.scss";
+@use "./blocks/services.scss";
+@use "./blocks/button.scss";

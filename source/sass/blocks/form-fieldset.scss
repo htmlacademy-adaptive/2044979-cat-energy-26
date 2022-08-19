@@ -30,7 +30,6 @@
 }
 
 .title-line {
-  padding-right: 91px;
   padding-bottom: 35px;
 }
 
@@ -49,11 +48,12 @@
 }
 
 .form-field__textarea {
+  font-family: "Arial", sans-serif;
   padding: 9px 12px 125px 15px;
   border: 1px solid #E7E7E7;
 }
 
-.form-fieldset__additionally {
+.title-line--additionally {
   padding-top: 23px;
   padding-right: 23px;
   padding-bottom: 34px;
