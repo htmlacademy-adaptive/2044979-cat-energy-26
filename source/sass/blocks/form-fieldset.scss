@@ -1,62 +1,22 @@
-.form-fieldset__container {
-  margin: 0;
-  padding: 0;
-}
-
-.form-field__label {
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
-  text-transform: uppercase;
-  font-style: normal;
-  color: #444444;
-  padding: 13px;
-}
-
-.form-field__input {
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
-  text-transform: uppercase;
-  font-style: normal;
-  color: #444444;
-  padding: 0;
-}
-
-.form-field__label--radio {
-  color: #222222;
-}
-
 .title-line {
   padding-bottom: 35px;
-}
-
-.form-field__post {
-  padding: 13px 14px 16px 0px;
-}
-
-.form-field__contact {
-  padding: 14px 14px 16px 16px;
-}
-
-.form-fieldset__comments {
-  padding-top: 23px;
-  padding-right: 22px;
-  padding-bottom: 37px;
-}
-
-.form-field__textarea {
-  font-family: "Arial", sans-serif;
-  padding: 9px 12px 125px 15px;
-  border: 1px solid #E7E7E7;
 }
 
 .title-line--additionally {
   padding-top: 23px;
   padding-right: 23px;
   padding-bottom: 34px;
+}
+
+.title-stile {
+  margin: 0;
+  text-align: center;
+}
+
+.form-fieldset__comments {
+  padding-top: 10px;
+  padding-right: 22px;
+  padding-bottom: 37px;
 }
 
 .form-fieldset__necessarily {
@@ -69,4 +29,19 @@
   color: #000000;
   padding: 21px 61px 32px 61px;
   margin: 0;
+}
+
+.form-fieldset__item {
+  padding-bottom: 14px;
+}
+
+.form-fieldset__list {
+  margin: 0;
+  list-style-type: none;
+  padding-top: 9px;
+  padding-bottom: 19px;
+}
+
+.form-fieldset__button {
+  background: #68B738;
 }
