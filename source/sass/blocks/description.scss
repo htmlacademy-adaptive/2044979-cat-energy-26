@@ -1,13 +1,17 @@
+.description__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .description__title {
-  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 40px;
   color: #000000;
   text-align: center;
   margin: 0;
-  padding-bottom: 40px;
-  padding-top: 20px;
+  margin-bottom: 40px;
 }
 
 .description__wrapper{
@@ -15,12 +19,6 @@
   font-size: 14px;
   line-height: 18px;
   color: #444444;
-}
-
-.description__list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 .description__item {
@@ -33,7 +31,7 @@
 
 .description__text {
   margin: 0;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .description__four {

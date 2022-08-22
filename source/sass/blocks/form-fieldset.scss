@@ -1,22 +1,14 @@
-.title-line {
-  padding-bottom: 35px;
-}
-
-.title-line--additionally {
-  padding-top: 23px;
-  padding-right: 23px;
-  padding-bottom: 34px;
-}
-
-.title-stile {
-  margin: 0;
-  text-align: center;
-}
-
 .form-fieldset__comments {
   padding-top: 10px;
   padding-right: 22px;
   padding-bottom: 37px;
+}
+
+.form-fieldset__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  color: #000000;
 }
 
 .form-fieldset__necessarily {
@@ -43,5 +35,5 @@
 }
 
 .form-fieldset__button {
-  background: #68B738;
+  width: 100%;
 }

@@ -4,7 +4,6 @@
   line-height: 18px;
   text-transform: uppercase;
   color: #444444;
-
 }
 
 .form-field__input {
@@ -31,7 +30,7 @@
   padding: 13px 2px 14px 16px;
 }
 
-.form-name {
+.form-field-stile {
   padding-right: 13px;
 }
 
@@ -49,6 +48,7 @@
 
 .form-field__textarea {
   font-family: "Arial", sans-serif;
-  padding: 9px 12px 125px 15px;
+  padding: 9px 12px 12px 15px;
   border: 1px solid #E7E7E7;
+  width: 100%;
 }
