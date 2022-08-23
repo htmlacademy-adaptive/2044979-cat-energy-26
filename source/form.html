@@ -41,8 +41,9 @@
   </header>
   <main class="main-content">
     <section class="inner-header container">
-      <h1 class="inner-header__title header-title">Подбор программы</h1>
-      <p class="inner-header__text inner-header-text-stile">Заполните анкету, и мы подберем<br>программу питания для вашего кота</p>
+      <h1 class="inner-header__title inner-header__form">Подбор программы</h1>
+      <p class="inner-header__text inner-header-text-stile">Заполните анкету, и мы подберем<br>программу питания для
+        вашего кота</p>
     </section>
     <form class="form-program" action="https://echo.htmlacademy.ru/" method="get">
       <div class="form-program__fieldset-container container">
@@ -75,7 +76,7 @@
           <h2 class="visually-hidden">Направление вашей программы</h2>
           <div class="form-fieldset__container form-fieldset__container--radio">
             <ul class="form-fieldset__list form-fieldset__list--radio">
-              <li class="form-fieldset__item">
+              <li class="form-fieldset__item form-fieldset__stile-one">
                 <label class="form-fieldset__field form-field form-field--radio">
                   <input class="form-field__radio visually-hidden" type="radio" name="program-name" value="weight-loss"
                     checked>
@@ -83,14 +84,14 @@
                   <span class="form-field__label form-field__label--radio">Похудение</span>
                 </label>
               </li>
-              <li class="form-fieldset__item">
+              <li class="form-fieldset__item form-fieldset__stile-two">
                 <label class="form-fieldset__field form-field form-field--radio">
                   <input class="form-field__radio visually-hidden" type="radio" name="program-name" value="weight-gain">
                   <span class="form-field__radio-mark"></span>
                   <span class="form-field__label form-field__label--radio">Набор массы</span>
                 </label>
               </li>
-              <li class="form-fieldset__item">
+              <li class="form-fieldset__item form-fieldset__stile-three">
                 <label class="form-fieldset__field form-field form-field--radio">
                   <input class="form-field__radio visually-hidden" type="radio" name="program-name" value="unknown">
                   <span class="form-field__radio-mark"></span>
@@ -103,7 +104,8 @@
       </div>
       <section class="form-program__fieldset form-fieldset">
         <h3 class="form-fieldset__title title-line title-line--form">Контактные данные<br> (владельца кота)</h3>
-        <div class="form-fieldset__container form-fieldset__container--input form-fieldset__container--input-contacts container">
+        <div
+          class="form-fieldset__container form-fieldset__container--input form-fieldset__container--input-contacts container">
           <div class="form-program form-cat">
             <label class="form-fieldset__field form-field">
               <span class="form-field__fill form-field__label">E-mail:*</span>
@@ -133,36 +135,36 @@
         <h3 class="form-fieldset__title title-line title-line--form title-line--additionally">Дополнительно</h3>
         <div class="form-fieldset__container form-fieldset__container--checkbox container">
           <ul class="form-fieldset__list form-fieldset__list--checkbox">
-            <li class="form-fieldset__item form-fieldset__item-checkbox">
+            <li class="form-fieldset__item form-fieldset__item-checkbox form-fieldset__item-position">
               <label class="form-fieldset__field form-field form-field--checkbox">
                 <input class="form-field__checkbox visually-hidden" type="checkbox" name="sweetener" checked>
                 <span class="form-field__check-mark"></span>
                 <span class="form-field__label form-field__label--check">Сахарозаменитель</span>
               </label>
             </li>
-            <li class="form-fieldset__item form-fieldset__item-checkbox">
+            <li class="form-fieldset__item form-fieldset__item-checkbox form-fieldset__item-position">
               <label class="form-fieldset__field form-field form-field--checkbox">
                 <input class="form-field__checkbox visually-hidden" type="checkbox" name="sweetener" checked>
                 <span class="form-field__check-mark"></span>
                 <span class="form-field__label form-field__label--check">Питьевая вода</span>
               </label>
             </li>
-            <li class="form-fieldset__item form-fieldset__item-checkbox">
+            <li class="form-fieldset__item form-fieldset__item-checkbox form-fieldset__item-position">
               <label class="form-fieldset__field form-field form-field--checkbox">
                 <input class="form-field__checkbox visually-hidden" type="checkbox" name="sweetener" checked>
                 <span class="form-field__check-mark"></span>
                 <span class="form-field__label form-field__label--check">Молоко</span>
               </label>
             </li>
-            <li class="form-fieldset__item form-fieldset__item-checkbox">
+            <li class="form-fieldset__item form-fieldset__item-checkbox form-fieldset__item-stile">
               <label class="form-fieldset__field form-field form-field--checkbox">
                 <input class="form-field__checkbox visually-hidden" type="checkbox" name="sweetener" checked>
                 <span class="form-field__check-mark"></span>
                 <span class="form-field__label form-field__label--check">Витамины</span>
               </label>
             </li>
+            <button class="form-fieldset__button button">Отправить заявку</button>
           </ul>
-          <button class="form-fieldset__button button">Отправить заявку</button>
           <p class="form-fieldset__necessarily">* — Обязательные поля</p>
         </div>
       </section>
