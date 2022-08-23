@@ -1,0 +1,57 @@
+.select {
+  padding-bottom: 20px;
+}
+
+.select__item {
+  margin: 0;
+  color: #444444;
+}
+
+.select__item--slim {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.select__item--pro {
+  padding-bottom: 20px;
+}
+
+.select__title--weigh-loss {
+  font-size: 24px;
+  line-height: 37px;
+  font-weight: 400;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 30px 79px 29px 91px;
+}
+
+.select__text--slim {
+  font-family: "Arial", sans-serif;
+  padding: 0;
+  margin: 29px 33px 23px 20px;
+  color: #444444;
+}
+
+.select__title--weigh-gain {
+  font-size: 24px;
+  line-height: 37px;
+  font-weight: 400;
+  color: #000000;
+  text-transform: uppercase;
+  margin: 30px 30px 29px 91px;
+  padding: 0;
+}
+
+.select__text--pro {
+  font-family: "Arial", sans-serif;
+  margin: 29px 33px 23px 20px;
+  padding: 0;
+}
+
+.select__link {
+  margin: 15px 127px 18px 19px;
+  padding: 0;
+  color: #000000;
+  text-transform: uppercase;
+}

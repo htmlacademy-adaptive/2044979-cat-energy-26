@@ -1,0 +1,39 @@
+.description__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.description__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.description__wrapper{
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+}
+
+.description__item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  font-style: normal;
+  color: #444444;
+}
+
+.description__text {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.description__four {
+  padding-bottom: 8px;
+}

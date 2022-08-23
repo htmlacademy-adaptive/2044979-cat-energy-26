@@ -1,0 +1,35 @@
+.services {
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/index-background-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 320px;
+  background-position: top center;
+}
+
+.services__title {
+  font-size: 36px;
+  line-height: 36px;
+  font-style: normal;
+  color: #ffffff;
+  margin: 0;
+  padding-top: 27px;
+}
+
+.services__subtitle {
+  font-size: 14px;
+  line-height: 14px;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 29px;
+}
+
+.services__button {
+  width: 100%;
+}
+

@@ -1,0 +1,55 @@
+.form-field__label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+}
+
+.form-field__input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+  padding: 0;
+}
+
+.form-field__name {
+  align-items: center;
+  text-transform: uppercase;
+  color: #444444;
+  padding: 13px 30px 14px 15px;
+  margin-left: 13px;
+}
+
+.form-field__weight {
+  padding: 13px 20px 14px 16px;
+}
+
+.form-field__age {
+  padding: 13px 2px 14px 16px;
+}
+
+.form-field-stile {
+  padding-right: 13px;
+}
+
+.form-field__label--radio {
+  color: #222222;
+}
+
+.form-field__post {
+  padding: 13px 9px 16px 0px;
+}
+
+.form-field__contact {
+  padding: 14px 14px 16px 16px;
+}
+
+.form-field__textarea {
+  font-family: "Arial", sans-serif;
+  padding: 9px 12px 12px 15px;
+  border: 1px solid #E7E7E7;
+  width: 100%;
+}
