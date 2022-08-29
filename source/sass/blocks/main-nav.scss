@@ -1,28 +1,51 @@
-.main-nav{
+.main-nav {
   font-family: "Oswald", sans-serif;
-  text-align: center;
+
+  @media (min-width: 768px) {
+    margin-left: auto;
+    margin-right: 30px;
+  }
+
+  @media (min-width: 1140px) {
+    margin-left: auto;
+    margin-right: 110px;
+  }
 }
 
 .main-nav__wrapper {
   text-transform: uppercase;
   margin: 0;
   padding: 0;
+  width: 100%;
+  z-index: 1;
+
+  @media (min-width: 768px) {
+    display: block;
+    position: relative;
+    padding-top: 18px;
+  }
+
+  @media (min-width: 1440px) {
+    padding-top: 16px;
+    background-color: transparent;
+    z-index: 1;
+  }
 }
 
 .main-nav__list {
   margin: 0;
   padding: 0;
   list-style-type: none;
+
+  @media (min-width: 768px) {
+    display: flex;
+    padding: 0;
+  }
+
+  @media (min-width: 1440px) {
+    display: flex;
+    padding: 0;
+  }
 }
 
-.site-list-major{
-  padding: 23px 122px 23px 122px;
-}
 
-.site-list-catalog {
-  padding: 23px 70px 23px 70px;
-}
-
-.site-list-program {
-  padding: 23px 70px 23px 70px;
-}

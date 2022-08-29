@@ -1,6 +1,17 @@
 .select {
   padding-bottom: 20px;
+
+  @media (min-width: 768px) {
+    height: 373px;
+    text-align: start;
+
+  }
+
+  @media (min-width: 1440px) {
+    display: flex;
 }
+}
+
 
 .select__item {
   margin: 0;

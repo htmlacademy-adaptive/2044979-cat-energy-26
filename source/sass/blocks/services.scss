@@ -1,21 +1,57 @@
 .services {
   text-align: center;
-  color: #FFFFFF;
+  color: #000000;
   margin: 0;
   padding: 0;
   background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/index-background-desktop.jpg");
   background-repeat: no-repeat;
   background-size: auto 320px;
   background-position: top center;
+
+  @media (min-width: 768px) {
+    background-image: none;
+  }
+
+  @media (min-width: 1440px) {
+    height: 696px;
+    background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/index-big-cat.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -117px;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+  }
 }
 
 .services__title {
   font-size: 36px;
   line-height: 36px;
   font-style: normal;
-  color: #ffffff;
+  color: #FFFFFF;
   margin: 0;
   padding-top: 27px;
+  padding-bottom: 25px;
+
+  @media (min-width: 768px) {
+    width: 416px;
+    font-size: 60px;
+    line-height: 60px;
+    color: #000000;
+    text-align: start;
+    margin-left: 117px;
+    padding-top: 62px;
+    padding-bottom: 41px;
+  }
+
+  @media (min-width: 1440px) {
+    padding-top: 114px;
+    padding-bottom: 40px;
+    margin-left: 190px;
+  }
 }
 
 .services__subtitle {
@@ -23,13 +59,40 @@
   line-height: 14px;
   font-style: normal;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #FFFFFF;
   margin: 0;
-  padding-top: 25px;
+  padding-top: 8px;
   padding-bottom: 29px;
+
+  @media (min-width: 768px) {
+    color: #000000;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: start;
+    margin-left: 117px;
+  }
+
+  @media (min-width: 1440px) {
+    margin-left: 190px;
+  }
 }
 
-.services__button {
-  width: 100%;
+.services__picture {
+  margin-bottom: 3px;
+  margin: 0 auto;
+
+  @media (min-width: 768px) {
+    min-width: 709px;
+    min-height: 609px;
+  }
+
+  @media (min-width: 1440px) {
+    min-width: 552px;
+    min-height: 499px;
+    position: absolute;
+    top: 32px;
+    left: 558px;
+  }
 }
+
 
