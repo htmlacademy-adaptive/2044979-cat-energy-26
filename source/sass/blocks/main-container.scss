@@ -1,0 +1,138 @@
+.main-container {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/index-background-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 320px 302px;
+}
+
+.main-container__header {
+  padding: 27px 20px 20px;
+  min-height: 500px;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  flex-direction: column;
+}
+
+.main-container__picture {
+  position: absolute;
+  transform: translateX(-140px);
+  top: 167px;
+  left: 50%;
+}
+
+.main-container__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+  margin-top: 0;
+  padding: 0;
+}
+
+.main-container__subtitle {
+  margin-bottom: 29px;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.main-container__button {
+  width: 100%;
+  margin-top: auto;
+}
+
+@media (min-width: 768px) {
+  .main-container {
+    background: none;
+  }
+
+  .main-container__picture {
+    transform: translateX(-354px);
+    margin-top: 68px;
+    width: 709px;
+    height: 609px;
+    z-index: -1;
+  }
+
+  .main-container__wrapper {
+    padding: 0 30px;
+  }
+
+  .main-container__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 40px 30px 30px 87px;
+    background-image: none;
+    min-height: 872px;
+  }
+
+  .main-container__title {
+    font-size: 60px;
+    line-height: 60px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 41px;
+    margin-right: 164px;
+  }
+
+  .main-container__subtitle {
+    margin-bottom: 49px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0;
+  }
+
+  .main-container__button {
+    font-size: 20px;
+    padding: 14px;
+    width: 30%;
+    margin-top: 49px;
+  }
+
+}
+
+@media (min-width: 1440px) {
+  .main-container__wrapper {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1220px;
+
+    &::before {
+      position: absolute;
+      width: 50%;
+      height: 694px;
+      top: 0;
+      right: 0;
+      content: "";
+      background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/index-big-cat.jpg");
+      background-size: cover;
+      z-index: -1;
+    }
+  }
+
+  .main-container__picture {
+    transform: translateX(-170px);
+    top: 25px;
+    width: 552px;
+    height: 499px;
+    z-index: -1;
+  }
+
+  .main-container__header {
+    padding: 110px 80px 80px;
+    min-height: 660px;
+  }
+}

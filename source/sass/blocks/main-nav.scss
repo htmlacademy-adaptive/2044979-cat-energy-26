@@ -1,51 +1,103 @@
 .main-nav {
   font-family: "Oswald", sans-serif;
-
-  @media (min-width: 768px) {
-    margin-left: auto;
-    margin-right: 30px;
-  }
-
-  @media (min-width: 1140px) {
-    margin-left: auto;
-    margin-right: 110px;
-  }
-}
-
-.main-nav__wrapper {
-  text-transform: uppercase;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  z-index: 1;
-
-  @media (min-width: 768px) {
-    display: block;
-    position: relative;
-    padding-top: 18px;
-  }
-
-  @media (min-width: 1440px) {
-    padding-top: 16px;
-    background-color: transparent;
-    z-index: 1;
-  }
 }
 
 .main-nav__list {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
 
-  @media (min-width: 768px) {
-    display: flex;
-    padding: 0;
-  }
+.main-nav__link {
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
 
-  @media (min-width: 1440px) {
-    display: flex;
-    padding: 0;
+.main-nav__item {
+  padding: 23px 15px 23px 15px;
+  text-align: center;
+  position: relative;
+}
+
+.main-nav__wrapper {
+  text-transform: uppercase;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+@media (max-width: 767px) {
+  .main-nav__item {
+    border-top: 1px solid #E6E6E6;
   }
 }
 
+@media (min-width: 768px) {
+  .main-nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-width: 440px;
+  }
 
+  .main-nav__item--active {
+    &::before {
+      position: absolute;
+      bottom: 0;
+      width: 64px;
+      height: 2px;
+      background-color: #68B738;
+      content: "";
+    }
+  }
+
+  .main-nav__wrapper {
+    position: static;
+  }
+
+
+  .main-nav__link {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .main-nav__item {
+    padding: 0 0 12px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1440px) {
+  .main-nav__list {
+    min-width: 478px;
+  }
+
+  .main-nav__item--active-white {
+    &::before {
+      position: absolute;
+      bottom: 0;
+      width: 64px;
+      height: 2px;
+      background-color: #ffffff;
+      content: "";
+    }
+  }
+
+  .main-nav__link {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .main-nav__wrapper {
+    background-color: transparent;
+  }
+
+  .main-nav__link--color {
+    color: #FFFFFF;
+  }
+}

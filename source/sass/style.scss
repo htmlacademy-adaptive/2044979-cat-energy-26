@@ -1,12 +1,11 @@
 @use "./visually-hidden.scss";
 @use "./blocks/container.scss";
 @use "./blocks/button.scss";
-@use "./blocks/main-content.scss";
+@use "./blocks/main-container.scss";
 @use "./global.scss";
 @use "./blocks/page.scss";
 @use "./blocks/main-header.scss";
 @use "./blocks/main-nav.scss";
-@use "./blocks/site-list.scss";
 @use "./blocks/description.scss";
 @use "./blocks/example.scss";
 @use "./blocks/catalog-feed.scss";
@@ -18,7 +17,6 @@
 @use "./blocks/card-feed.scss";
 @use "./blocks/inner-header.scss";
 @use "./blocks/select.scss";
-@use "./blocks/services.scss";
 @use "./blocks/form-field.scss";
 @use "./blocks/form-cat.scss";
 @use "./blocks/title-line.scss";
