@@ -3,8 +3,14 @@
   background: #eaeaea;
 }
 
-.example__block--programm {
+.example__result {
+  height: 256px;
+  position: relative;
+}
+
+.example__container {
   padding-top: 25px;
+  padding-bottom: 40px;
 }
 
 .example__title {
@@ -22,62 +28,207 @@
   font-size: 14px;
   line-height: 18px;
   margin: 0;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+  color: #444444;
+}
+
+.example__expenses {
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.example__nutrition {
+  margin-left: 3px;
+}
+
+.example__value {
+  margin: 0;
+}
+
+.example__description {
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 8px;
+  order: -1;
 }
 
 .example__table {
   margin: 0;
-  padding: 0;
+  margin-bottom: 20px;
   display: flex;
-  justify-content: space-around;
-  padding-bottom: 20px;
-}
-
-.example__number {
-  font-family: "Oswald", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 24px;
-  color: #000000;
-  margin: 0;
-  padding-bottom: 8px;
-}
-
-.example__description {
-  font-family: "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 100%;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #444444;
-  margin: 0;
-  padding: 0;
-}
-
-.example__expenses {
-  font-family: "Oswald", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #000000;
-  margin: 0;
-  padding-bottom: 20px;
+  justify-content: space-between;
 }
 
 .example__cell {
-  box-sizing: border-box;
-  border: 1px solid #CDCDCD;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 14px 20px 20px;
+  min-width: 124px;
   border-radius: 3px;
+  border: 1px solid #CDCDCD;
+  position: relative;
 }
 
+.example__number {
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  color: #444444;
+  margin-bottom: -5px;
+  position: absolute;
+}
 
 .example__pictuer-toggle {
   display: none;
 }
+
+@media (min-width: 768px) {
+  .example__container {
+    padding: 43px 30px 100px;
+  }
+
+  .example__result {
+    position: relative;
+    height: 512px;
+  }
+
+  .example {
+    background-image: linear-gradient(#FFFFFF, #EAEAEA);
+  }
+
+  .example__title {
+    font-size: 60px;
+    line-height: 60px;
+    color: #000000;
+    padding: 0;
+    margin-bottom: 63px;
+
+  }
+
+  .example__subtitle {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0;
+    color: #444444;
+    margin-bottom: 54px;
+  }
+
+  .example__cell {
+    min-width: 162px;
+  }
+
+  .example__table {
+    margin: 0;
+    min-width: 366px;
+  }
+
+  .example__description {
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+  }
+
+  .example__number {
+    min-width: 132px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    margin-bottom: -5px;
+  }
+
+  .example__expenses {
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 9px;
+  }
+
+  .example__value {
+    margin: 0;
+  }
+
+  .example__box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 99px;
+  }
+
+}
+
+@media (min-width: 1440) {
+  .example {
+    background: linear-gradient(#FFFFFF, #EAEAEA);
+  }
+
+  .example__container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 0 75px;
+    display: flex;
+    justify-content: space-between;
+    }
+
+  .example__result {
+    position: relative;
+    height: 512px;
+    width: 512px;
+    }
+
+  .example__title {
+    margin-bottom: 146px;
+    }
+
+  .example__subtitle {
+    margin-bottom: 69px;
+    }
+
+   .example__number {
+    min-width: 132px;
+   }
+
+  .example__block {
+    max-width: 436px;
+    }
+
+  .example__table {
+    margin-bottom: 55px;
+    }
+
+  .example-program__calculation {
+    font-size: 20px;
+    line-height: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 63px;
+    max-width: 436px;
+    color: #000000;
+    }
+
+  .example__box {
+    margin: 0;
+    }
+  }
