@@ -138,18 +138,23 @@
     </section>
   </main>
   <footer class="main-footer">
-    <div class="main-footer__contacts container">
-      <p class="main-footer__text">Приглашаем к сотрудничеству дилеров!</p>
-      <address class="main-footer__adress">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
+    <div class="main-footer__container main-footer__container-color-white">
+      <div class="main-footer__contacts contacts">
+        <h2 class="contacts__title">приглашаем<br> к сотрудничеству дилеров!</h2>
+        <div class="contacts__box">
+          <p class="contacts__text">ул. Большая Конюшенная, д. 19/8</p>
+          <p class="contacts__text-city">Санкт-Петербург</p>
+        </div>
+      </div>
     </div>
     <div class="main-footer__map">
-      <img src="img/location.jpg" width="320" height="362" alt="Местонахождение">
+      <iframe class="main-footer__location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7923.688004294705!2d40.39259359929865!3d56.13099784798284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414c796abd574431%3A0xa5192737744ddb02!2z0JLQu9Cw0LTQuNC80LjRgCwg0JLQu9Cw0LTQuNC80LjRgNGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1662292127794!5m2!1sru!2sru" width="320" height="362" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-    <div class="main-footer__social">
+    <div class="main-footer__wrapper">
       <a class="main-footer__logo-title">
         <img class="main-footer__icon" src="img/logotype-text.svg" width="128" height="24" alt="Логотип Cat-Energy.">
       </a>
-      <ul class="main-footer__social social">
+      <ul class="main-footer__social">
         <li class="social__item social__item--vkontakte">
           <a class="social__link" href="https://vk.com/htmlacademy"></a>
           <svg width="28" height="22" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -176,12 +181,13 @@
         </li>
       </ul>
       <div class="main-footer__rights">
-        <a class="main-footer__right-link" href="https://htmlacademy.ru/study">HTML Academy</a>
-        <svg width="27" height="34" viewBox="0 0 27 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M13.6426 0.0157537L13.5 0L0 1.40733V26.0129L13.5 34L27 26.0129V1.40733L13.6426 0.0157537ZM25.2344 25.0151L13.5 31.9573L1.76561 25.0151V14.9293L13.4507 21.8451L13.4701 23.0984L5.45351 18.3548L5.44295 19.5801L13.4894 24.3885L13.5088 25.675L5.46408 20.9174L5.45351 22.1427L13.5 26.9511L21.6239 22.1182V20.8929V16.909L25.2432 14.7595L25.2344 25.0151ZM25.2344 13.4519L22.0147 15.3319L20.5325 16.2071L13.4666 12.0201L13.456 13.2454L19.4957 16.818L19.4429 16.8495L19.3126 16.9247L18.4536 17.4166L13.4666 14.4689L13.456 15.6942L17.3921 18.0222L16.4591 18.6314L16.438 18.6436L13.4666 16.902L13.456 18.1273L15.4029 19.2615L13.4155 20.4483L1.7973 13.5762L13.4349 6.61831L25.2344 13.4519ZM25.2344 12.2266L13.4401 5.31075L1.76561 12.2196V2.9897L13.5 1.76442L25.2344 2.9897V12.2266Z"
-            fill="#666666" />
-        </svg>
+        <a class="main-footer__right-link" href="https://htmlacademy.ru/study">
+          <svg class="main-footer__html-academy" width="27" height="34" viewBox="0 0 27 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M13.6426 0.0157537L13.5 0L0 1.40733V26.0129L13.5 34L27 26.0129V1.40733L13.6426 0.0157537ZM25.2344 25.0151L13.5 31.9573L1.76561 25.0151V14.9293L13.4507 21.8451L13.4701 23.0984L5.45351 18.3548L5.44295 19.5801L13.4894 24.3885L13.5088 25.675L5.46408 20.9174L5.45351 22.1427L13.5 26.9511L21.6239 22.1182V20.8929V16.909L25.2432 14.7595L25.2344 25.0151ZM25.2344 13.4519L22.0147 15.3319L20.5325 16.2071L13.4666 12.0201L13.456 13.2454L19.4957 16.818L19.4429 16.8495L19.3126 16.9247L18.4536 17.4166L13.4666 14.4689L13.456 15.6942L17.3921 18.0222L16.4591 18.6314L16.438 18.6436L13.4666 16.902L13.456 18.1273L15.4029 19.2615L13.4155 20.4483L1.7973 13.5762L13.4349 6.61831L25.2344 13.4519ZM25.2344 12.2266L13.4401 5.31075L1.76561 12.2196V2.9897L13.5 1.76442L25.2344 2.9897V12.2266Z"
+              fill="#666666" />
+          </svg>
+        </a>
       </div>
     </div>
   </footer>

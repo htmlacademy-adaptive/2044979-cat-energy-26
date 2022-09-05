@@ -1,0 +1,70 @@
+.main-content {
+  overflow-x: hidden;
+}
+
+.main-content__header {
+  padding: 29px 20px 39px;
+}
+
+.main-content__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  color: #111111;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .main-content__header {
+    padding: 40px 30px 78px;
+  }
+
+  .main-content__title {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    color: #111111;
+  }
+
+  .main-content__card {
+    display: grid;
+    row-gap: 141px;
+    gap: 60px;
+
+  }
+
+  .main-content__catalog {
+    padding: 0 30px;
+  }
+
+}
+
+@media (min-width: 1440px) {
+  .main-content__header {
+    padding: 74px 0 80px;
+    max-width: 1220px;
+    margin: 0 auto;
+  }
+
+  .main-content__catalog {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .main-content__card {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 80px;
+    row-gap: 63px;
+  }
+
+
+
+
+
+
+}
