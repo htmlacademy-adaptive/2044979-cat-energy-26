@@ -31,13 +31,17 @@
 
   .main-content__card {
     display: grid;
-    row-gap: 141px;
-    gap: 60px;
+    justify-content: center;
+    background: #F2F2F2;
 
   }
 
   .main-content__catalog {
     padding: 0 30px;
+    display: grid;
+    grid-template-columns: 324px 324px;
+    justify-content: center;
+    gap: 60px;
   }
 
 }

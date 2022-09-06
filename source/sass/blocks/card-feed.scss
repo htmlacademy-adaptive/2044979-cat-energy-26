@@ -3,7 +3,6 @@
   display: grid;
   align-items: center;
   padding: 19px 20px 12px 20px;
-  box-sizing: border-box;
 }
 
 .card-feed__specification-list {
@@ -22,7 +21,7 @@
   justify-content: space-between;
 }
 
-.card-feed__catalog {
+.card-feed__icon {
   padding: 14px 36px 12px 36px;
 }
 
@@ -37,6 +36,7 @@
 }
 
 .card-feed__text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   margin: 0;
@@ -72,4 +72,51 @@
 
 .card-feed__order-button {
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  .card-feed {
+    margin: 0;
+    align-items: center;
+    padding: 0;
+  }
+
+  .card-feed__container-text {
+    background: #F2F2F2;
+  }
+
+  .card-feed__specification-list {
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #444444;
+    margin-bottom: 22px;
+  }
+
+  .card-feed__text {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+    color: #222222;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 21px;
+  }
+
+  .card-feed__container-text {
+    padding: 0 36px 39px;
+  }
+
+  .card-feed__catalog {
+  }
+
+  .card-feed__specification-item {
+    border-bottom: 1px solid #CDCDCD;
+  }
+}
+
+@media (min-width: 1440px) {
+
+
 }
