@@ -1,8 +1,21 @@
 .catalog-promo {
   background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/cat-catalog.jpg");
+  position: relative;
+  min-height: 289px;
+  padding-top: 187px;
+  margin-top: 19px;
+  background-size: contain;
   background-repeat: no-repeat;
-  margin: 0;
-  padding-top: 54px;
+  background-position: center;
+}
+
+.catalog-promo__icon {
+  position: absolute;
+  left: 50%;
+  top: 65px;
+  width: 56px;
+  height: 61px;
+  transform: translateX(-50%);
 }
 
 .catalog-promo__slogan {
@@ -12,4 +25,43 @@
   line-height: 20px;
   font-style: normal;
   color: #ffffff;
+  margin: 0;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .catalog-promo {
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    min-height: 200px;
+    margin-top: 69px;
+    margin-bottom: 41px;
+    justify-content: flex-end;
+}
+
+  .catalog-promo__icon {
+    left: 77px;
+}
+
+  .catalog-promo__slogan {
+    margin-right: 96px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1440px) {
+  .catalog-promo {
+    width: 245px;
+    height: 289px;
+}
+
+  .catalog-promo__icon {
+    margin: 0 47px;
+}
+
+  .catalog-promo__slogan {
+    margin: 185px 41px 41px 41px;
+    text-align: center;
+  }
 }

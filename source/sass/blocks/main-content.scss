@@ -29,18 +29,10 @@
     color: #111111;
   }
 
-  .main-content__card {
-    display: grid;
-    justify-content: center;
-    background: #F2F2F2;
-
-  }
-
   .main-content__catalog {
     padding: 0 30px;
     display: grid;
     grid-template-columns: 324px 324px;
-    justify-content: center;
     gap: 60px;
   }
 
@@ -55,20 +47,10 @@
 
   .main-content__catalog {
     max-width: 1220px;
+    grid-template-columns: 245px 245px 245px 245px;
     margin: 0 auto;
     padding: 0;
-  }
-
-  .main-content__card {
-    display: flex;
-    flex-wrap: wrap;
     column-gap: 80px;
     row-gap: 63px;
   }
-
-
-
-
-
-
 }
