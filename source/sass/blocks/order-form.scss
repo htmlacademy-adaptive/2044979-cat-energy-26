@@ -81,7 +81,6 @@
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 16px;
-  display: block;
   text-align: center;
   color: #000000;
 }
@@ -100,6 +99,16 @@
 
   .order-form__fields--program {
     gap: 23px;
+  }
+
+  .order-form__wrapper {
+    width: 630px;
+  }
+
+  .order-form__shell {
+    padding: 0;
+    max-width: 768px;
+    margin: 0 auto;
   }
 
   .order-form__fieldset--personal {
@@ -138,7 +147,7 @@
   }
 
   .order-form__title--contacts {
-    min-width: 600px;
+    width: auto;
     margin-left: -39px;
     padding-right: 42px;
     padding-left: 39px;
@@ -196,11 +205,18 @@
     gap: 20px;
   }
 
+  .order-form__shell {
+    padding: 0;
+    max-width: 1220px;
+    margin: 0 auto;
+  }
+
   .order-form__wrapper {
     display: grid;
     grid-template-columns: 569px 568px;
     column-gap: 80px;
     margin-bottom: 69px;
+    padding: 0;
   }
 
   .order-form__fieldset--program {
@@ -250,14 +266,20 @@
 
   .order-form__title--contacts {
     margin-bottom: 79px;
+    margin-left: 110px;
+    padding: 0;
   }
 
   .order-form__title--description {
     margin-bottom: 76px;
+    margin-left: 110px;
+    padding: 0;
   }
 
   .order-form__title--additional {
     margin-bottom: 55px;
+    margin-left: 110px;
+    padding: 0;
   }
 
   .order-form__fields--additional {

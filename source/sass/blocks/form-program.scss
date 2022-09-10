@@ -49,7 +49,6 @@
     color: #000000;
     margin-bottom: 68px;
     max-width: 323px;
-    margin: 0;
     padding: 0;
   }
 }
@@ -59,13 +58,19 @@
     padding: 72px 0 56px;
   }
 
-  .form-program__wrapper {
-    padding: 0;
-    max-width: 1220px;
-    margin: 0 auto;
-  }
-
   .form-program__order {
     padding: 0 0 82px;
+  }
+
+  .form-program__text {
+    margin-left: 110px;
+  }
+
+  .form-program__wrapper {
+    padding: 0;
+  }
+
+  .form-program__title {
+    margin-left: 110px;
   }
 }

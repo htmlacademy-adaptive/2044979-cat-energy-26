@@ -9,8 +9,8 @@
 .additionally-feed__text {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
-  font-size: 36px;
-  line-height: 36px;
+  font-size: 24px;
+  line-height: 24px;
   color: #000000;
   margin: 25px 22px 36px 67px;
   padding: 0;
@@ -74,6 +74,12 @@
     padding: 0 30px;
   }
 
+  .additionally-feed__text {
+    font-size: 36px;
+    line-height: 36px;
+    margin: 25px 22px 36px 0px;
+  }
+
   .additionally-feed__card {
     margin: 0;
     display: flex;
@@ -96,9 +102,9 @@
 
 @media (min-width: 1440px) {
   .additionally-feed {
-    padding: 0 30px;
-    width: 896px;
+    padding: 0;
     margin: 0 auto;
+    width: 1220px;
   }
 
   .additionally-feed__specification-list {
@@ -107,17 +113,24 @@
   }
 
   .additionally-feed__card {
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 12px 0;
-    box-sizing: border-box;
     border-top: 1px solid #CDCDCD;
+    padding: 11px 0;
   }
 
   .additionally-feed__order-button {
     width: auto;
+  }
+
+  .additionally-feed__container {
+    width: 1220px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .additionally-feed__extra {
+    width: 896px;
+    margin-right: 79px;
   }
 
 }

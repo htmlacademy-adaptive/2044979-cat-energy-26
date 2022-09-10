@@ -57,11 +57,7 @@
     display: block;
   }
 
-  .main-footer__location {
-    height: 400px;
-  }
-
-  .main-footer__container {
+   .main-footer__container {
     padding: 0 30px;
   }
 
@@ -78,7 +74,6 @@
   .main-footer__social {
     margin: 0;
     padding: 0;
-    margin-bottom: 43px;
     display: flex;
     column-gap: 24px;
     min-width: 132px;
@@ -99,7 +94,6 @@
 
   .main-footer__location {
     width: 100%;
-    height: auto;
   }
 
 }
@@ -114,14 +108,18 @@
   }
 
   .main-footer__contacts {
-    min-width: 565px;
+    width: 565px;
     padding: 56px 80px;
-  }
-
-  .main-footer__wrapper {
-    margin: 0 auto;
-    padding: 57px 0 58px 0;
-    max-width: 1220px;
+    position: absolute;
+    background-color: #ffffff;
+    margin-left: 110px;
+    margin-top: 95px;
 }
+
+  .main-footer__transit {
+    height: 400px;
+    background-color: #F2F2F2;
+    position: relative;
+  }
 
 }
