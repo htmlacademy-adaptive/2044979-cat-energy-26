@@ -1,7 +1,23 @@
+.description__wrapper {
+  padding: 20px 20px 49px;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+}
+
+.description__br {
+  display: none;
+}
+
 .description__list {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
 }
 
 .description__title {
@@ -11,29 +27,136 @@
   color: #000000;
   text-align: center;
   margin: 0;
-  margin-bottom: 40px;
-}
-
-.description__wrapper{
-  font-family: "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 18px;
-  color: #444444;
-}
-
-.description__item {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
-  font-style: normal;
-  color: #444444;
+  margin-bottom: 42px;
 }
 
 .description__text {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  min-height: 54px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: #444444;
   margin: 0;
-  margin-bottom: 20px;
 }
 
-.description__four {
-  padding-bottom: 8px;
+.description__item {
+  padding-left: 80px;
+  position: relative;
+  min-height: 60px;
+}
+
+.description__item--healthy,
+.description__item--cooking,
+.description__item--eat,
+.description__item--season {
+  &::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background-color: #68B738;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.description__item--healthy {
+  &::before {
+    background-image: url("../img/item-healthy.svg");
+    background-size: 30px 32px;
+  }
+}
+
+.description__item--cooking {
+  &::before {
+    background-image: url("../img/item-cooking.svg");
+    background-size: 29px 31px;
+  }
+}
+
+.description__item--eat {
+  &::before {
+    background-image: url("../img/item-eat.svg");
+    background-size: 25px 30px;
+  }
+}
+
+.description__item--season {
+  &::before {
+    background-image: url("../img/item-season.svg");
+    background-size: 32px 33px;
+  }
+}
+
+@media (min-width: 768px) {
+  .description__item--healthy,
+  .description__item--cooking,
+  .description__item--eat,
+  .description__item--season {
+    &::before {
+      width: 80px;
+      height: 80px;
+    }
+}
+
+.description__br {
+  display: block;
+}
+
+.description__title {
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 72px;
+}
+
+.description__text {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #444444;
+  margin: 0;
+  padding: 0;
+}
+
+.description__wrapper {
+  padding: 45px 30px 47px;
+}
+
+.description__list {
+  row-gap: 65px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  padding-right: 75px;
+  justify-content: space-between;
+  counter-reset: number 0;
+}
+
+.description__item {
+  width: 249px;
+  padding: 118px 0 56px 0;
+  counter-increment: number;
+  position: relative;
+}
+}
+
+@media (min-width: 1440px) {
+  .description__wrapper {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 71px 0 69px;
+  }
+
+  .description__list {
+    padding-right: 0;
+    column-gap: 70px;
+    row-gap: 37px;
+  }
 }

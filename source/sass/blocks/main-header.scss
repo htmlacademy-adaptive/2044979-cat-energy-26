@@ -4,7 +4,80 @@
   text-align: center;
 }
 
+.main-header__page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px 17px 20px;
+
+}
+
+.main-header__toggle {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+.main-header__logo {
+  display: inline-block;
+}
+
 .main-header__logo-text {
-  margin-left: 57px;
-  margin-right: 65px;
+  margin-left: 56px;
+  margin-bottom: 7px;
+}
+
+@media (min-width: 768px) {
+  .main-header {
+    min-height: 76px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
+
+  .main-header__logo {
+    width: 174px;
+    height: 52px;
+  }
+
+  .main-header__toggle {
+    position: relative;
+    display: none;
+  }
+
+  .main-header__page {
+    padding: 24px 0 24px;
+  }
+
+  .main-header__logo-text {
+    margin-left: 12px;
+    margin-bottom: 7px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .main-header {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 53px 0 0 0;
+  }
+
+  .main-header__page {
+    padding: 0;
+  }
+
+  .main-header__logo {
+    width: 202px;
+    height: 59px;
+  }
+
+  .main-header__logo-text {
+    margin-left: 14px;
+    margin-bottom: 7px;
+  }
+}

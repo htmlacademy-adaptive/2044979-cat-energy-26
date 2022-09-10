@@ -1,0 +1,56 @@
+.field {
+  position: relative;
+  list-style-type: none;
+}
+
+.field__label {
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+}
+
+.field__input {
+  font-size: 16px;
+  line-height: 18px;
+  width: 100%;
+  align-self: center;
+  text-transform: uppercase;
+  margin-left: 12px;
+  padding: 14px 14px 14px;
+  border: 1px solid #E7E7E7;
+  background: #FFFFFF;
+}
+
+.field__mail {
+  right: 15px;
+  position: absolute;
+  color: #444444;
+}
+
+.field__phone {
+  right: 15px;
+  position: absolute;
+  color: #444444;
+}
+
+@media (min-width: 768px) {
+  .field__input {
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #444444;
+    padding: 10px 20px 30px;
+    margin-left: 18px;
+  }
+
+  .field__label {
+    font-size: 20px;
+    line-height: 30px;
+    color: #444444;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+  }
+}
+

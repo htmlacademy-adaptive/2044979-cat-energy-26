@@ -1,6 +1,6 @@
 .services {
   text-align: center;
-  color: #FFFFFF;
+  color: #000000;
   margin: 0;
   padding: 0;
   background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/index-background-desktop.jpg");
@@ -13,9 +13,10 @@
   font-size: 36px;
   line-height: 36px;
   font-style: normal;
-  color: #ffffff;
+  color: #FFFFFF;
   margin: 0;
   padding-top: 27px;
+  padding-bottom: 25px;
 }
 
 .services__subtitle {
@@ -23,13 +24,17 @@
   line-height: 14px;
   font-style: normal;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #FFFFFF;
   margin: 0;
-  padding-top: 25px;
+  padding-top: 8px;
   padding-bottom: 29px;
+}
+
+.services__picture {
+  margin-bottom: 3px;
+  margin: 0 auto;
 }
 
 .services__button {
   width: 100%;
 }
-

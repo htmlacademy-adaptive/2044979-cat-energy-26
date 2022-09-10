@@ -1,15 +1,28 @@
+.additionally-feed__card {
+  margin: 0;
+  display: grid;
+  align-items: center;
+  padding: 19px 20px 12px 20px;
+  box-sizing: border-box;
+}
+
 .additionally-feed__text {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
   color: #000000;
-  text-align: center;
-  margin: 25px 22px 36px 19px;
+  margin: 25px 22px 36px 67px;
+  padding: 0;
+}
+
+.additionally-feed__title {
+  margin: 0;
   padding: 0;
 }
 
 .additionally-feed__link-title {
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -23,20 +36,24 @@
   padding-bottom: 35px;
 }
 
+.additionally-feed__value {
+  margin: 0;
+}
+
 .additionally-feed__one {
   margin-right: 125px;
 }
 
 .additionally-feed__two {
-  margin-right: 182px;
+  margin-right: 190px;
 }
 
 .additionally-feed__three {
-  margin-right: 181px;
+  margin-right: 199px;
 }
 
 .additionally-feed__four {
-  margin-right: 116px;
+  margin-right: 134px;
 }
 
 .additionally-feed__specification-item {
@@ -50,4 +67,70 @@
 
 .additionally-feed__order-button {
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  .additionally-feed{
+    padding: 0 30px;
+  }
+
+  .additionally-feed__text {
+    font-size: 36px;
+    line-height: 36px;
+    margin: 25px 22px 36px 0px;
+  }
+
+  .additionally-feed__card {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 27px 38px;
+    box-sizing: border-box;
+    border: 1px solid #CDCDCD;
+  }
+
+  .additionally-feed__link-title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .additionally-feed__description {
+    margin-right: 49px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .additionally-feed {
+    padding: 0;
+    margin: 0 auto;
+    width: 1220px;
+  }
+
+  .additionally-feed__specification-list {
+    margin: 0 0 0 auto;
+    width: 256px;
+  }
+
+  .additionally-feed__card {
+    border-top: 1px solid #CDCDCD;
+    padding: 11px 0;
+  }
+
+  .additionally-feed__order-button {
+    width: auto;
+  }
+
+  .additionally-feed__container {
+    width: 1220px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .additionally-feed__extra {
+    width: 896px;
+    margin-right: 79px;
+  }
+
 }

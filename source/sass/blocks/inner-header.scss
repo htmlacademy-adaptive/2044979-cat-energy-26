@@ -1,20 +1,50 @@
+.inner-header {
+  padding: 0 20px;
+}
+
 .inner-header__text {
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  text-transform: uppercase;
   color: #000000;
-  margin: 0;
+  text-transform: uppercase;
+  margin-bottom: 38px;
+  margin-top: 0;
 }
 
-.inner-header__form {
+.inner-header__title {
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
   color: #111111;
-  margin: 27px 40px 37px 20px;
+  padding: 27px 0 37px;
+  margin: 0;
+
 }
 
-.inner-header-text-stile {
-  margin: 37px 20px 37px 20px;
+@media (min-width: 768px) {
+  .inner-header {
+    padding: 0 69px 66px;
+  }
+
+  .inner-header__text {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 323px;
+    margin: 0;
+  }
+
+  .inner-header__form {
+    font-size: 60px;
+    line-height: 60px;
+  }
 }
+
+ @media (min-width: 1440px) {
+  .inner-header {
+    padding: 0 110px 56px;
+  }
+
+ }

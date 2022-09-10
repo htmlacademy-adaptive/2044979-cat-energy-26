@@ -1,6 +1,9 @@
 .card-feed {
   margin: 0;
-  padding: 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  padding: 19px 20px 12px 20px;
 }
 
 .card-feed__specification-list {
@@ -9,36 +12,40 @@
   font-size: 12px;
   line-height: 16px;
   color: #444444;
-  margin-top: 59px;
-  margin-bottom: 9px;
-  padding: 0;
 }
 
 .card-feed__specification-item {
   display: flex;
-  justify-content: space-between
-}
-
-.card-feed__catalog {
-  display: flex;
-  padding: 14px 36px 12px 36px;
-}
-
-.card-feed__container-text {
-  display: flex;
-  padding-bottom: 13px;
-  padding-top: 11px;
+  justify-content: space-between;
 }
 
 .card-feed__title {
-  font-size: 16px;
-  line-height: 20px;
-  text-transform: uppercase;
-  color: #111111;
+  margin: 0;
+  font-weight: 400;
 }
 
-.card-feed__product-item {
-  padding: 36px 20px 25px 21px;
+.card-feed__link-title {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: #222222;
+  text-transform: uppercase;
+  grid-column: 1 / -1;
+}
+
+.card-feed__link-image {
+  display: block;
+  padding:  24px 33px 12px;
+  text-align: center;
+}
+
+.card-feed__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  color: #222222;
+  text-transform: uppercase;
 }
 
 .card-feed__product {
@@ -69,4 +76,77 @@
 
 .card-feed__order-button {
   width: 100%;
+  grid-column: 1 / -1;
+}
+
+@media (min-width: 768px) {
+  .card-feed {
+    grid-template-columns: 1fr;
+    padding: 0 36px 39px;
+    background: linear-gradient(#FFFFFF 20%, #F2F2F2 20%);
+  }
+
+  .card-feed__link-image {
+    display: block;
+    order: -1;
+    margin-bottom: 15px;
+  }
+
+  .card-feed__specification-list {
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #444444;
+    margin-bottom: 33px;
+  }
+
+  .card-feed__title {
+    margin-bottom: 21px;
+    text-align: center;
+  }
+
+  .card-feed__link-title {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222222;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .card-feed__text {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+    color: #222222;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 21px;
+  }
+
+  .card-feed__description {
+    margin-bottom: 9px;
+  }
+
+  .card-feed__specification-item {
+    border-bottom: 1px solid #CDCDCD;
+    margin-bottom: 5px;
+  }
+
+  .card-feed__icon {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .card-feed {
+    justify-content: space-evenly;
+  }
+
+  .card-feed__title {
+    padding: 0 23px;
+    margin-bottom: 10px;
+  }
 }
