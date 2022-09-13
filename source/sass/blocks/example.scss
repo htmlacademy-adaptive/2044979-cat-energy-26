@@ -4,6 +4,7 @@
 }
 
 .example__result {
+  --width: 50%;
   height: 256px;
   position: relative;
 }
@@ -13,18 +14,56 @@
   padding-bottom: 40px;
 }
 
-.example__pictuer_before {
+.example__toggler {
   position: absolute;
-  left: 50%;
-  transform: translateX(-141px);
-  clip-path: inset(0 50% 0 0);
+  width: 2px;
+  top: 0;
+  bottom: 0;
+  background-color: #666666;
+  left: var(--width);
+  transform: translateX(-50%);
 }
 
-.example__pictuer_after {
+.example__pictuer {
   position: absolute;
-  clip-path: inset(0 0 0 50%);
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: var(--width);
+  overflow: hidden;
+}
+
+.example__toggler {
+  &::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFFFFF;
+    border: 2px solid #666666;
+    border-radius: 20px;
+    z-index: -1;
+  }
+}
+
+.example__switch {
   left: 50%;
-  transform: translateX(-141px);
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.example__before {
+  width: 280px;
+  height: 256px;
+}
+
+.example__after {
+  width: 280px;
+  height: 256px;
 }
 
 .example__title {
@@ -105,9 +144,17 @@
   background-color: #EAEAEA;
 }
 
-.example__pictuer-toggle {
-  display: none;
+
+
+.example__toggler:active {
+  background-color: #5EAA2F;
+  opacity: 0.6;
 }
+
+.example__toggler:hover {
+  background-color: #68B738;
+}
+
 
 @media (min-width: 768px) {
   .example__container {
@@ -117,20 +164,19 @@
   .example__result {
     position: relative;
     height: 512px;
+    width: 560px;
   }
 
   .example {
     background: linear-gradient(#FFFFFF 56.9%, #EAEAEA 56.9%);
   }
 
-  .example__pictuer_before {
-    transform: translateX(-282px) translateY(-3px);
+  .example__before {
     width: 560px;
     height: 512px;
   }
 
-  .example__pictuer_after {
-    transform: translateX(-282px) translateY(-3px);
+  .example__after {
     width: 560px;
     height: 512px;
   }
@@ -205,7 +251,7 @@
 
 @media (min-width: 1440px) {
   .example {
-    background: linear-gradient(#FFFFFF 20%, #EAEAEA 20%);
+    background: linear-gradient(#FFFFFF 25%, #EAEAEA 25%);
   }
 
   .example__container {
@@ -219,7 +265,7 @@
   .example__result {
     position: relative;
     height: 512px;
-    width: 512px;
+    width: 560px;
   }
 
   .example__title {
@@ -258,5 +304,5 @@
 
   .example__box {
     margin: 0;
-    }
   }
+}

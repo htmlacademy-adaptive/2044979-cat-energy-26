@@ -61,7 +61,7 @@
             поможет вашему питомцу сбросить лишний вес.
           </p>
           <a class="select__link" href="form.html">Каталог Slim
-            <svg class="select__link--arow" width="24" height="12" viewBox="0 0 24 12" fill="none"
+            <svg class="select__arow" width="24" height="12" viewBox="0 0 24 12" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path stroke="#000" stroke-width="2" d="M0 6h18" />
               <path d="m24 6-6.75 5.196V.804L24 6Z" fill="#000" />
@@ -75,7 +75,7 @@
             необходимые мышцы!
           </p>
           <a class="select__link" href="form.html">Каталог Pro
-            <svg class="select__link--arow" width="24" height="12" viewBox="0 0 24 12" fill="none"
+            <svg class="select__arow" width="24" height="12" viewBox="0 0 24 12" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path stroke="#000" stroke-width="2" d="M0 6h18" />
               <path d="m24 6-6.75 5.196V.804L24 6Z" fill="#000" />
@@ -134,19 +134,17 @@
         </div>
         <div class="example__result">
           <div class="example__pictuer">
-            <img class="example__pictuer_before" src="img/before-meals.jpg" width="280" height="240" alt="До похудения">
+            <img class="example__before" src="img/before-meals.svg" width="280" height="240" alt="До похудения">
           </div>
-          <div class="example__pictuer example__pictuer_hide">
-            <img class="example__pictuer_after" src="img/after-meals.jpg" width="280" height="240"
-              alt="После похудения">
+          <div class="example__pictuer">
+            <img class="example__after" src="img/after-meals.svg" width="280" height="240" alt="После похудения">
           </div>
-        </div>
-        <div class="example__pictuer-toggle">
-          <button class="example__button" type="button">Было</button>
-          <div class="example__scale">
-            <div class="example__bar"></div>
+          <div class="example__toggler">
+            <h2 class="visually-hidden">Переключательно на до и после похудния</h2>
+            <svg class="example__switch" width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 0 0 9l8 9V0ZM24 9l-8-9v18l8-9Z" fill="#666" />
+            </svg>
           </div>
-          <button class="example__button button" type="button">Стало</button>
         </div>
       </div>
     </section>

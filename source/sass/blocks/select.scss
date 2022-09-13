@@ -71,7 +71,7 @@
   position: relative;
 }
 
-.select__link--arow {
+.select__arow {
   position: absolute;
   width: 24px;
   height: 12px;
@@ -84,7 +84,7 @@
   opacity: 0.3;
 }
 
-.select__link:hover .select__link--arow {
+.select__link:hover .select__arow {
   transform: translateY(7px) scaleX(1.4);
 }
 
@@ -143,12 +143,12 @@
     padding-bottom: 57px;
   }
 
-  .select__link--arow {
+  .select__arow {
       transform: translateY(10px);
       margin-left: 25px;
   }
 
-  .select__link:hover .select__link--arow {
+  .select__link:hover .select__arow {
     transform: translateY(10px) scaleX(1.4);
   }
 }

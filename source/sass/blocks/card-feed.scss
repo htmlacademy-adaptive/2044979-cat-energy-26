@@ -50,10 +50,10 @@
     background: url("../img/plus.svg") no-repeat center;
     width: 30px;
     height: 30px;
-    background-size: contain;;
+    background-size: contain;
   }
-
 }
+
 .card-feed__link-image {
   display: block;
   padding:  24px 33px 12px;
@@ -130,7 +130,7 @@
   .card-feed {
     grid-template-columns: 1fr;
     padding: 0 36px 39px;
-    background: linear-gradient(#FFFFFF 20%, #F2F2F2 20%);
+    background: linear-gradient(#FFFFFF 15%, #F2F2F2 15%);
   }
 
   .card-feed__link-image {
@@ -188,9 +188,8 @@
 
   .card-feed--additionally {
     background: #FFFFFF;
-    padding: 162px 39px 39px;
+    padding: 267px 39px 39px;
     max-width: 500px;
-    border: 2px solid #F2F2F2;
 
     &::before {
       content: "";
@@ -198,9 +197,20 @@
       height: 60px;
       left: 50%;
       transform: translateX(-30px);
-      top: 52px;
+      top: 160px;
     }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 80px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      pointer-events: none;
+      border: 2px solid #F2F2F2;
   }
+}
 
   .card-feed__product {
     font-weight: 400;
@@ -208,8 +218,7 @@
     line-height: 22px;
     color: #111111;
     text-align: center;
-    margin-bottom: 25px;
-    max-width: 134px;
+    margin-bottom: 23px;
     margin-top: 0;
   }
 
@@ -218,8 +227,11 @@
     line-height: 18px;
     color: #444444;
     margin-bottom: 87px;
-    max-width: 167px;
     margin-top: 0;
+  }
+
+  .card-feed__button {
+    width: 100%;
   }
 }
 
@@ -237,5 +249,33 @@
     background: #FFFFFF;
     width: 245px;
     padding: 161px 35px 39px;
+  }
+
+  .card-feed__product {
+    margin-bottom: 23px;
+    margin-top: 49px;
+  }
+
+  .card-feed--additionally {
+    background: #FFFFFF;
+
+    &::before {
+      content: "";
+      width: 60px;
+      height: 60px;
+      left: 50%;
+      transform: translateX(-30px);
+      top: 100px;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 69px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      border: 2px solid #F2F2F2;
+    }
   }
 }
