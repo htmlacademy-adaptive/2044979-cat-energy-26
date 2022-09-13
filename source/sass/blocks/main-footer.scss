@@ -83,6 +83,15 @@
   margin-right: 140px;
 }
 
+
+.main-footer__logo-title:hover {
+  opacity: 0.8;
+}
+
+.main-footer__logo-title:active {
+  opacity: 0.6;
+}
+
 @media (min-width: 768px) {
   .main-footer__html-academy {
     display: block;
@@ -161,7 +170,7 @@
     background-color: #ffffff;
     margin-left: 110px;
     margin-top: 95px;
-}
+  }
 
   .main-footer__transit {
     height: 400px;
@@ -172,5 +181,4 @@
   .main-footer__html-logo {
     margin-right: 22px;
   }
-
 }
