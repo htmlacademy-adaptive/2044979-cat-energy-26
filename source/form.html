@@ -52,7 +52,7 @@
           <div class="order-form__wrapper container">
             <section class="order-form__fieldset order-form__fieldset--personal">
               <h2 class="visually-hidden">Данные вашего кота</h2>
-              <ul class="order-form__fields">
+              <ul class="order-form__fields container">
                 <li class="order-form__fields-item field">
                   <label class="field__label" for="form-name">Имя:*</label>
                   <input class="field__input" type="text" id="form-name" name="cat-name" placeholder="Барсик" required>
@@ -69,26 +69,26 @@
             </section>
             <section class="order-form__fieldset order-form__fieldset--program">
               <h2 class="visually-hidden">Подбор программы для кота</h2>
-              <ul class="order-form__fields order-form__fields--program">
+              <ul class="order-form__fields order-form__fields--program container">
                 <li class="order-form__fields-item control">
                   <label class="control__label">
-                    <input class="control__input" type="radio" name="program-type" value="slim" checked>
-                    <span class="control__mark radio"></span>
-                    <span class="control__text">Похудение</span>
+                    <input class="visually-hidden control__input" type="radio" name="program-type" value="slim" checked>
+                    <span class="control__mark control__mark--radio"></span>
+                    <span class="control__text control__text-context">Похудение</span>
                   </label>
                 </li>
                 <li class="order-form__fields-item control">
                   <label class="control__label">
-                    <input class="control__input" type="radio" name="program-type" value="mass">
-                    <span class="control__mark radio"></span>
-                    <span class="control__text">Набор массы</span>
+                    <input class="visually-hidden control__input" type="radio" name="program-type" value="mass">
+                    <span class="control__mark control__mark--radio"></span>
+                    <span class="control__text control__text-context">Набор массы</span>
                   </label>
                 </li>
                 <li class="order-form__fields-item control">
                   <label class="control__label">
-                    <input class="control__input" type="radio" name="program-type">
-                    <span class="control__mark radio"></span>
-                    <span class="control__text">Не знаю (нужен ваш совет)</span>
+                    <input class="visually-hidden control__input" type="radio" name="program-type">
+                    <span class="control__mark control__mark--radio"></span>
+                    <span class="control__text control__text-context">Не знаю (нужен ваш совет)</span>
                   </label>
                 </li>
               </ul>
@@ -97,7 +97,7 @@
           <section class="order-form__fieldset order-form__fieldset--contacts">
             <h2 class="visually-hidden">Контактные данные владельца кота</h2>
             <h3 class="order-form__title order-form__title--contacts">Контактные данные (владельца кота)</h3>
-            <div class="order-form__shell">
+            <div class="order-form__shell container">
               <ul class="order-form__fields order-form__fields--contacts">
                 <li class="order-form__fields-item field">
                   <label class="field__label" for="form-email">E-mail:*</label>
@@ -136,7 +136,7 @@
           <section class="order-form__fieldset order-form__fieldset--description">
             <h2 class="visually-hidden">Дополнительная информация от владельца</h2>
             <h3 class="order-form__title order-form__title--description">Комментарий</h3>
-            <div class="order-form__shell">
+            <div class="order-form__shell container">
               <textarea class="order-form__textarea" name="additional"
                 placeholder="Расскажите обо всех повaдках кота"></textarea>
             </div>
@@ -144,33 +144,33 @@
           <section class="order-form__fieldset order-form__fieldset--additional">
             <h2 class="visually-hidden">Дополнительный набор питация</h2>
             <h3 class="order-form__title order-form__title--additional">Дополнительно</h3>
-            <div class="order-form__shell">
+            <div class="order-form__shell container">
               <ul class="order-form__fields order-form__fields--additional">
                 <li class="order-form__fields-item control">
                   <label class="control__label">
-                    <input class="control__input" type="checkbox" name="program-add" checked>
-                    <span class="control__mark checkbox"></span>
+                    <input class="visually-hidden control__input" type="checkbox" name="program-add" checked>
+                    <span class="control__mark control__mark--checkbox"></span>
                     <span class="control__text control__text--additional">Сахарозаменитель</span>
                   </label>
                 </li>
                 <li class="order-form__fields-item control">
                   <label class="control__label">
-                    <input class="control__input" type="checkbox" name="program-add">
-                    <span class="control__mark  checkbox"></span>
+                    <input class="visually-hidden control__input" type="checkbox" name="program-add">
+                    <span class="control__mark control__mark--checkbox"></span>
                     <span class="control__text control__text--additional">Питьевая вода</span>
                   </label>
                 </li>
                 <li class="order-form__fields-item control">
                   <label class="control__label">
-                    <input class="control__input" type="checkbox" name="program-add">
-                    <span class="control__mark checkbox"></span>
+                    <input class="visually-hidden control__input" type="checkbox" name="program-add">
+                    <span class="control__mark control__mark--checkbox"></span>
                     <span class="control__text control__text--additional">Молоко</span>
                   </label>
                 </li>
                 <li class="order-form__fields-item control">
                   <label class="control__label">
-                    <input class="control__input" type="checkbox" name="program-add">
-                    <span class="control__mark checkbox"></span>
+                    <input class="visually-hidden control__input" type="checkbox" name="program-add">
+                    <span class="control__mark control__mark--checkbox"></span>
                     <span class="control__text control__text--additional">Витамины</span>
                   </label>
                 </li>
@@ -185,7 +185,7 @@
   </main>
   <footer class="main-footer">
     <div class="main-footer__transit">
-      <div class="main-footer__contacts container">
+      <div class="main-footer__contacts">
         <p class="main-footer__text">Приглашаем к сотрудничеству дилеров!</p>
         <address class="main-footer__adress">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
       </div>

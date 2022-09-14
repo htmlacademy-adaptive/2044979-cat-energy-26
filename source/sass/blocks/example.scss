@@ -144,17 +144,28 @@
   background-color: #EAEAEA;
 }
 
+.example__switch {
+  fill: #666666;
+  display: block;
+}
 
+.example__switch:hover {
+  fill: #68B738;
+}
 
-.example__toggler:active {
-  background-color: #5EAA2F;
+.example__switch:active {
   opacity: 0.6;
+  fill: #5EAA2F;
 }
 
 .example__toggler:hover {
   background-color: #68B738;
 }
 
+.example__toggler:active {
+  background-color: #5EAA2F;
+  opacity: 0.6;
+}
 
 @media (min-width: 768px) {
   .example__container {
