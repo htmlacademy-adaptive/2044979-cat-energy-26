@@ -1,9 +1,24 @@
+.additionally-feed{
+  position: relative;
+
+  &::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #68B738;
+    position: absolute;
+    top: 23px;
+    z-index: 0;
+
+  }
+}
+
 .additionally-feed__card {
   margin: 0;
   display: grid;
   align-items: center;
-  padding: 19px 20px 12px 20px;
-  box-sizing: border-box;
+  margin-top: 13px;
+  margin-bottom: 19pxw;
 }
 
 .additionally-feed__text {
@@ -12,8 +27,9 @@
   font-size: 24px;
   line-height: 24px;
   color: #000000;
-  margin: 25px 22px 36px 67px;
+  margin: 25px 22px 36px 20px;
   padding: 0;
+
 }
 
 .additionally-feed__title {
@@ -71,13 +87,13 @@
 
 @media (min-width: 768px) {
   .additionally-feed{
-    padding: 0 30px;
+    position: relative;
   }
 
   .additionally-feed__text {
     font-size: 36px;
     line-height: 36px;
-    margin: 25px 22px 36px 0px;
+    margin: 25px 22px 80px 0px;
   }
 
   .additionally-feed__card {
@@ -98,13 +114,12 @@
   .additionally-feed__description {
     margin-right: 49px;
   }
+
 }
 
 @media (min-width: 1440px) {
   .additionally-feed {
     padding: 0;
-    margin: 0 auto;
-    width: 1220px;
   }
 
   .additionally-feed__specification-list {
@@ -126,6 +141,8 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
   }
 
   .additionally-feed__extra {

@@ -81,8 +81,8 @@
     line-height: 60px;
     text-align: left;
     color: #000000;
-    margin-bottom: 41px;
-
+    margin-bottom: 40px;
+    max-width: 418px;
   }
 
   .main-container__subtitle {
@@ -120,6 +120,11 @@
       background-size: cover;
       z-index: -1;
     }
+  }
+
+  .main-container__title {
+    max-width: 417px;
+
   }
 
   .main-container__picture {

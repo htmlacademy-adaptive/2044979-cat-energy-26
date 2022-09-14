@@ -49,6 +49,7 @@
   min-height: 60px;
 }
 
+
 .description__item--healthy,
 .description__item--cooking,
 .description__item--eat,
@@ -141,9 +142,25 @@
 
 .description__item {
   width: 249px;
-  padding: 118px 0 56px 0;
+  padding: 115px 0 56px 0;
   counter-increment: number;
   position: relative;
+
+  &::after {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 280px;
+    line-height: 210px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    content: counter(number);
+    position: absolute;
+    top: 0;
+    left: 47%;
+    z-index: -1;
+    color: #F2F2F2;
+}
 }
 }
 
