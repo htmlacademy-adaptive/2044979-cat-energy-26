@@ -31,6 +31,12 @@
   bottom: 0;
   width: var(--width);
   overflow: hidden;
+  background: linear-gradient(#FFFFFF 29.5%, #EAEAEA 29.5%);
+}
+
+.example__meals {
+  width: 100%;
+  height: 256px;
 }
 
 .example__toggler {
@@ -149,13 +155,12 @@
   display: block;
 }
 
-.example__switch:hover {
+.example__toggler:hover > .example__switch {
   fill: #68B738;
 }
 
-.example__switch:active {
-  opacity: 0.6;
-  fill: #5EAA2F;
+.example__toggler:hover::after {
+  border: 2px solid #68B738;
 }
 
 .example__toggler:hover {
