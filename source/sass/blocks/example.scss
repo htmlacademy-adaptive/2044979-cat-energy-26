@@ -31,7 +31,7 @@
   bottom: 0;
   width: var(--width);
   overflow: hidden;
-  background: linear-gradient(#FFFFFF 29.5%, #EAEAEA 29.5%);
+  background: linear-gradient(#FFFFFF 0%, #EAEAEA 0%);
 }
 
 .example__meals {
@@ -185,6 +185,16 @@
 
   .example {
     background: linear-gradient(#FFFFFF 56.9%, #EAEAEA 56.9%);
+  }
+
+  .example__pictuer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: var(--width);
+    overflow: hidden;
+    background: linear-gradient(#FFFFFF 29.5%, #EAEAEA 29.5%);
   }
 
   .example__before {
