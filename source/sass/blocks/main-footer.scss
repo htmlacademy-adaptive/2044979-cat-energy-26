@@ -65,6 +65,14 @@
   color: #111111;
 }
 
+.main-footer__link {
+  display: flex;
+  min-width: 28px;
+  min-height: 22px;
+  justify-content: center;
+  color: #666666;
+}
+
 .main-footer__adress {
   font-family: "Arial", sans-serif;
   font-size: 14px;
@@ -97,24 +105,11 @@
 }
 
 .main-footer__link:hover > .main-footer__icon {
-  fill: #68B738;
+  color: #68B738;
 }
 
 .main-footer__link:active > .main-footer__icon {
-  fill: rgba(#68B738, 0.3);
-}
-
-
-.main-footer__icon {
-  fill: #666666;
-}
-
-.main-footer__link:hover > .main-footer__icon {
-  fill: #68B738;
-}
-
-.main-footer__link:active > .main-footer__icon {
-  fill: rgba(#68B738, 0.3);
+  color: rgba(#68B738, 0.3);
 }
 
 .main-footer__html-academy {
