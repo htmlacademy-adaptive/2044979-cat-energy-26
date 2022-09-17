@@ -6,6 +6,10 @@
   background-repeat: no-repeat;
   background-position: top;
   background-size: 320px 302px;
+
+  @media (min-resolution: 2dppx) {
+     background-image: url("../img/index-background-desktop@2x.jpg");
+   }
 }
 
 .main-container__header {
@@ -97,8 +101,9 @@
 
   .main-container__button {
     font-size: 20px;
+    line-height: 20px;
     padding: 14px;
-    width: 30%;
+    width: 244px;
     margin-top: 49px;
   }
 }
@@ -119,8 +124,14 @@
       background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/index-big-cat.jpg");
       background-size: cover;
       z-index: -1;
+
+
+   @media (min-resolution: 2dppx) {
+    background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/index-big-cat@2x.jpg");
+    background-size: cover;
     }
   }
+}
 
   .main-container__title {
     max-width: 417px;
