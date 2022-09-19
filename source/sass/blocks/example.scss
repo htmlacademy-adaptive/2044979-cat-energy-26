@@ -78,7 +78,7 @@
   font-size: 36px;
   line-height: 40px;
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 38px;
 }
 
 .example__subtitle {
@@ -122,11 +122,12 @@
   margin-bottom: 8px;
   order: -1;
   margin-left: 0;
+  text-transform: uppercase;
 }
 
 .example__table {
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 34px;
   display: flex;
   gap: 32px;
   height: 56px;
@@ -136,8 +137,8 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  padding: 9px 20px 20px;
-  min-width: 124px;
+  padding: 13px 20px 20px;
+  min-width: 123px;
   border-radius: 3px;
   border: 1px solid #CDCDCD;
   position: relative;
@@ -154,6 +155,10 @@
 .example__switch {
   fill: #666666;
   display: block;
+}
+
+.example__value {
+  margin-left: 5px;
 }
 
 .example__toggler:hover > .example__switch {
@@ -173,20 +178,33 @@
   opacity: 0.6;
 }
 
+.example__description-br {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .example__container {
-    padding: 43px 30px 100px;
+    padding: 45px 30px 101px;
   }
 
   .example__result {
     position: relative;
     height: 512px;
     width: 560px;
+    left: 74px;
   }
 
   .example {
     background: linear-gradient(#FFFFFF 56.9%, #EAEAEA 56.9%);
   }
+
+  .example__description-br {
+    display: block;
+  }
+
+  .example__nutrition {
+    margin-right: 3px;
+}
 
   .example__pictuer {
     position: absolute;
@@ -227,12 +245,14 @@
   }
 
   .example__cell {
-    min-width: 162px;
+    min-width: 161px;
   }
 
   .example__table {
     margin: 0;
     min-width: 366px;
+    gap: 43px;
+    height: auto;
   }
 
   .example__description {
@@ -245,10 +265,12 @@
   }
 
   .example__number {
-    width: 115px;
+    font-size: 14px;
+    line-height: 14px;
     bottom: -7px;
     background-color: #ffffff;
     position: absolute;
+    margin-left: 11px;
   }
 
   .example__expenses {
@@ -268,6 +290,10 @@
     margin: 0;
   }
 
+  .example__number-road {
+    margin-left: -3px;
+  }
+
   .example__box {
     display: flex;
     flex-wrap: wrap;
@@ -278,7 +304,11 @@
 
 @media (min-width: 1440px) {
   .example {
-    background: linear-gradient(#FFFFFF 25%, #EAEAEA 25%);
+    background: linear-gradient(#FFFFFF 22%, #EAEAEA 22%);
+  }
+
+  .example__description-br {
+    display: none;
   }
 
   .example__container {
@@ -293,6 +323,11 @@
     position: relative;
     height: 512px;
     width: 560px;
+    left: 0;
+  }
+
+  .example__pictuer {
+    background: linear-gradient(#FFFFFF 26.9%, #EAEAEA 26.9%);
   }
 
   .example__title {
@@ -305,9 +340,12 @@
 
    .example__number {
     background-color: #EAEAEA;
-    width: 115px;
-    bottom: -6px;
-    position: absolute;
+    min-width: 95px;
+    bottom: -7px;
+  }
+
+  .example__number-road {
+    margin-left: -2px;
   }
 
   .example__block {
@@ -315,7 +353,21 @@
   }
 
   .example__table {
-    margin-bottom: 55px;
+    margin-bottom: 60px;
+  }
+
+  .example__nutrition {
+    margin-right: 5px;
+    margin-left: 1px;
+  }
+
+  .example__expenses {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 59px;
+    max-width: 436px;
+
   }
 
   .example-program__calculation {
@@ -329,7 +381,7 @@
     color: #000000;
     }
 
-  .example__box {
-    margin: 0;
+    .example__box {
+      margin: 0;
+    }
   }
-}

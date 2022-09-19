@@ -49,8 +49,10 @@
   .main-nav__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-end;
     min-width: 440px;
+    max-width: 500px;
+    column-gap: 37px;
   }
 
   .main-nav__item--active {
@@ -66,8 +68,8 @@
 
   .main-nav__wrapper {
     position: static;
+    margin-top: 18px;
   }
-
 
   .main-nav__link {
     font-size: 18px;
@@ -91,6 +93,10 @@
     }
   }
 
+  .main-nav__item--active::before{
+    top: 36px;
+  }
+
   .main-nav__link {
     font-size: 20px;
     line-height: 30px;
@@ -104,6 +110,7 @@
 
   .main-nav__wrapper {
     background-color: transparent;
+    margin-top: 16px;
   }
 
   .main-nav__link--color:active {

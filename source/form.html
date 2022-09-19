@@ -18,7 +18,7 @@
       <div class="main-header__page main-header__page--closed main-header__page--nojs">
         <a class="main-header__logo" href="index.html">
           <picture>
-            <source media="(min-width: 768px)" srcset="img/logo-cat-tablet.svg">
+            <source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
             <img class="main-header__logo-image" src="img/logo-cat-energy.svg" width="33" height="38"
               alt="Интернет-магазин Cat-Energy">
           </picture>
@@ -64,15 +64,15 @@
               <ul class="order-form__fields container">
                 <li class="order-form__fields-item field">
                   <label class="field__label" for="form-name">Имя:*</label>
-                  <input class="field__input" type="text" id="form-name" name="cat-name" placeholder="Барсик" required>
+                  <input class="field__input" type="text" id="form-name" name="cat-name" placeholder="Барсик" pattern="^[А-Яа-яЁё\s]+$" required>
                 </li>
                 <li class="order-form__fields-item field">
                   <label class="field__label" for="form-weight">Вec (кг):*</label>
-                  <input class="field__input" type="text" id="form-weight" name="cat-weight" placeholder="7" required>
+                  <input class="field__input" type="text" id="form-weight" name="cat-weight" placeholder="7" pattern="^[ 0-9]+$" required>
                 </li>
                 <li class="order-form__fields-item field">
                   <label class="field__label" for="form-age">Возраст(лет):</label>
-                  <input class="field__input" type="text" id="form-age" name="cat-age" placeholder="7" required>
+                  <input class="field__input" type="text" id="form-age" name="cat-age" placeholder="7" pattern="^[ 0-9]+$" required>
                 </li>
               </ul>
             </section>
@@ -110,7 +110,7 @@
               <ul class="order-form__fields order-form__fields--contacts">
                 <li class="order-form__fields-item field">
                   <label class="field__label" for="form-email">E-mail:*</label>
-                  <input class="field__input" type="email" id="form-email" name="form-email"
+                  <input class="field__input" type="email" id="form-email" name="form-email" placeholder="kuklachev@gmail.com" required"
                     placeholder="kuklachev@gmail.com" required>
                     <svg class="field__mail" width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <use xlink:href="./img/sprite.svg#icon-email"></use>
@@ -180,8 +180,8 @@
   <footer class="main-footer">
     <div class="main-footer__transit">
       <div class="main-footer__contacts">
-        <p class="main-footer__text">Приглашаем к сотрудничеству дилеров!</p>
-        <address class="main-footer__adress">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
+        <p class="main-footer__text">Приглашаем<br> к сотрудничеству дилеров!</p>
+        <address class="main-footer__adress">ул. Большая Конюшенная, д. 19/8<br><br>Санкт-Петербург</address>
       </div>
       <div class="main-footer__map">
         <iframe class="main-footer__location"

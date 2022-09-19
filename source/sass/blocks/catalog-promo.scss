@@ -39,8 +39,9 @@
     align-items: center;
     padding-top: 0;
     min-height: 200px;
+    margin-top: 74px;
     justify-content: flex-end;
-    background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/catalog/tablet-cat.jpg") no-repeat center;
+    background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/catalog/tablet-cat.jpg 1x") no-repeat center;
     background-size: cover;
 
 
@@ -49,12 +50,16 @@
     }
   }
 
+
   .catalog-promo__icon {
-    left: 77px;
+    left: 118px;
+    top: 53px;
+    width: 80px;
+    height: 82px;
 }
 
   .catalog-promo__slogan {
-    margin-right: 96px;
+    margin-right: 124px;
     text-align: left;
   }
 }

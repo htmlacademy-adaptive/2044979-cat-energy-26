@@ -157,8 +157,11 @@
   .order-form__fieldset--description {
     &::before {
       top: 24px;
-
     }
+  }
+
+  .order-form__fields--contacts .order-form__field-input {
+    margin-left: 18px;
   }
 
   .order-form__fields--program {

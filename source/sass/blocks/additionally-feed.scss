@@ -7,9 +7,8 @@
     height: 2px;
     background-color: #68B738;
     position: absolute;
-    top: 23px;
-    z-index: 0;
-
+    top: 21px;
+    z-index: -1;
   }
 }
 
@@ -18,7 +17,7 @@
   display: grid;
   align-items: center;
   margin-top: 13px;
-  margin-bottom: 19pxw;
+  margin-bottom: 19px;
 }
 
 .additionally-feed__text {
@@ -93,7 +92,21 @@
   .additionally-feed__text {
     font-size: 36px;
     line-height: 36px;
-    margin: 25px 22px 80px 0px;
+    margin: 68px 40px 79px 67px;
+    width: 374px;
+    background-color: #ffffff;
+  }
+
+  .additionally-feed__specification-item {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: -19px;
+  }
+
+  .additionally-feed__title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 18px;
   }
 
   .additionally-feed__card {
@@ -101,7 +114,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 27px 38px;
+    padding: 25px 38px;
     box-sizing: border-box;
     border: 1px solid #CDCDCD;
   }
@@ -115,6 +128,13 @@
     margin-right: 49px;
   }
 
+  .additionally-feed__one {
+    margin-right: 49px;
+  }
+
+  .additionally-feed__two {
+    margin-right: 59px;
+  }
 }
 
 @media (min-width: 1440px) {

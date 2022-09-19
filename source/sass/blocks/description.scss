@@ -21,13 +21,15 @@
 }
 
 .description__title {
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 40px;
   color: #000000;
   text-align: center;
   margin: 0;
-  margin-bottom: 42px;
+  margin-bottom: 44px;
+  margin-right: 54px;
 }
 
 .description__text {
@@ -57,7 +59,7 @@
   &::before {
     position: absolute;
     content: "";
-    top: 0;
+    top: -3px;
     left: 0;
     width: 60px;
     height: 60px;
@@ -70,7 +72,7 @@
 .description__item--healthy {
   &::before {
     background-image: url("../img/item-healthy.svg");
-    background-size: 30px 32px;
+    background-size: 32px 47px;
   }
 }
 
@@ -103,6 +105,7 @@
     &::before {
       width: 80px;
       height: 80px;
+      top: 5px;
     }
 }
 
@@ -113,7 +116,8 @@
 .description__title {
   font-size: 60px;
   line-height: 60px;
-  margin-bottom: 72px;
+  margin-bottom: 68px;
+  width: 375px;
 }
 
 .description__text {
@@ -126,8 +130,13 @@
   padding: 0;
 }
 
+.description__br {
+  display: block;
+}
+
 .description__wrapper {
-  padding: 45px 30px 47px;
+  padding: 45px 30px 27px;
+  border-bottom: 1px solid #E6E6E6;
 }
 
 .description__list {
@@ -160,15 +169,47 @@
     left: 47%;
     z-index: -1;
     color: #F2F2F2;
-}
-}
+    }
+  }
+
+  .description__item--healthy {
+    margin-bottom: 30px;
+  }
 }
 
 @media (min-width: 1440px) {
   .description__wrapper {
     max-width: 1220px;
     margin: 0 auto;
-    padding: 71px 0 69px;
+    padding: 76px 0 69px;
+    border: none;
+  }
+
+
+  .description__item--healthy,
+  .description__item--cooking,
+  .description__item--eat,
+  .description__item--season {
+    &::before {
+      top: 10px;
+      left: 1px;
+  }
+}
+
+  .description__title {
+    margin-bottom: 63px;
+}
+
+  .description__item {
+    width: 249px;
+    padding: 122px 0 56px 0;
+    margin: 0;
+    counter-increment: number;
+    position: relative;
+
+    &::after {
+      top: 5px;
+    }
   }
 
   .description__list {
