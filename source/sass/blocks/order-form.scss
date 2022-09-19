@@ -1,22 +1,25 @@
 .order-form__fieldset {
   border: none;
   margin: 0;
-  padding: 0;
-  position: relative;
 }
 
 .order-form__fieldset--personal {
-  margin-bottom: 23px;
+  padding-bottom: 23px;
+  border-bottom: 1px solid #D9D9D9;
 }
 
 .order-form__fields {
   display: flex;
   flex-direction: column;
   list-style-type: none;
-  margin: 0;
-  gap: 14px;
-  width: auto;
   padding: 0;
+  margin: 0;
+  gap: 13px;
+}
+
+.order-form__fields--contacts .order-form__field-input {
+  margin-left: 12px;
+  padding-right: 40px;
 }
 
 .order-form__fields-radio {
@@ -27,43 +30,36 @@
   row-gap: 12px;
 }
 
-.order-form__fields--contacts {
-  padding: 0;
+.order-form__fields--program {
+  padding: 0 20px;
 }
 
 .order-form__fieldset--program {
-  padding: 23px 0 18px;
+  padding: 22px 0 20px;
   margin-bottom: 27px;
-  border-top: 1px solid #D9D9D9;
-  border-bottom: 1px solid #D9D9D9;
 }
 
 .order-form__fieldset--contacts {
-  margin-bottom: 20px;
-}
+  margin-bottom: 24px;
+  position: relative;
+  background: #ffffff;
 
-.order-form__fieldset--contacts {
-  &::before {
+ &::before {
     content: "";
-    width: 100%;
+    width: 1000%;
     height: 2px;
     background-color: #68B738;
     position: absolute;
-    top: 26px;
+    top: 15px;
     z-index: 0;
-
+    left: 20px;
   }
-}
-
-.order-form__title--contacts {
-  max-width: 215px;
-  position: relative;
-  background: #ffffff;
 }
 
 .order-form__fieldset--description {
   margin-bottom: 23px;
   background-color: #ffffff;
+  position: relative;
 }
 
 .order-form__title--description {
@@ -73,34 +69,32 @@
 .order-form__fieldset--description {
   &::before {
     content: "";
-    width: 100%;
+    width: 1000%;
     height: 2px;
     background-color: #68B738;
     position: absolute;
     top: 16px;
     z-index: 0;
+    left: 20px;
   }
-}
-
-
-.order-form__title--description {
-  max-width: 152px;
 }
 
 .order-form__fieldset--additional {
   &::before {
     content: "";
-    width: 100%;
+    width: 1000%;
     height: 2px;
     background-color: #68B738;
     position: absolute;
     top: 16px;
     z-index: 0;
+    left: 20px;
   }
 }
 
 .order-form__fieldset--additional {
   margin-bottom: 30px;
+  position: relative;
 }
 
 .order-form__title--additional {
@@ -112,26 +106,29 @@
   font-size: 24px;
   line-height: 26px;
   color: #000000;
-  margin-bottom: 35px;
+  margin-bottom: 34px;
   font-weight: 400;
   position: relative;
   background-color: #FFFFFF;
-  padding-left: 20px;
+  margin-left: 19px;
+  width: 200px;
 }
 
 .order-form__textarea {
+   font-family: "Oswald", sans-serif;
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
   min-height: 150px;
   width: 100%;
-  padding: 9px 12px 9px 15px;
+  padding: 11px 12px 9px 14px;
   border: 1px solid #E7E7E7;
 }
 
 .order-form__button {
   margin-bottom: 21px;
-  width: 100%;
+  width: 280px;
+  margin-left: 20px;
 }
 
 .order-form__note {
@@ -140,6 +137,8 @@
   line-height: 16px;
   text-align: center;
   color: #000000;
+  display: block;
+  margin-bottom: 32px;
 }
 
 .order-form__fields-item {
@@ -149,42 +148,34 @@
 
 @media (min-width: 768px) {
   .order-form__fieldset--program {
-    padding: 25px 28px;
-    margin-bottom: 80px;
+    margin: 25px 28px;
+    margin-bottom: 74px;
     border: 1px solid #CDCDCD;
-  }
-
-  .order-form__fieldset--description {
-    &::before {
-      top: 24px;
-    }
+    height: 197px;
   }
 
   .order-form__fields--contacts .order-form__field-input {
     margin-left: 18px;
   }
 
+  .order-form__fieldset--personal {
+    border-bottom: none;
+  }
+
+  .order-form__fields {
+    gap: 21px;
+  }
+
   .order-form__fields--program {
-    gap: 23px;
-  }
-
-  .order-form__wrapper {
-    max-width: 630px;
-    padding: 0;
-  }
-
-  .order-form__shell {
-    padding: 0;
-    max-width: 630px;
-    margin: 0 auto;
+    gap: 12px;
   }
 
   .order-form__fieldset--personal {
-    margin-bottom: 72px;
+    margin-bottom: 50px;
   }
 
   .order-form__fieldset--contacts {
-    margin-bottom: 65px;
+    margin-bottom: 72px;
   }
 
   .order-form__fieldset--description {
@@ -212,33 +203,29 @@
     padding: 0;
     margin-bottom: 76px;
     color: #000000;
-
   }
 
   .order-form__title--contacts {
-    max-width: 596px;
-    margin-left: -39px;
+    width: 595px;
+    margin-left: -9px;
     padding-right: 42px;
     padding-left: 39px;
-    margin-bottom: 70px;
+    background-color: #FFFFFF;
+    margin-bottom: 77px;
   }
 
   .order-form__title--description {
-    max-width: 267px;
-    margin-left: -39px;
-    padding-right: 38px;
-    padding-left: 39px;
+	  max-width: 267px;
+    margin-left: 29px;
+    background-color: #FFFFFF;
     margin-bottom: 72px;
-    background-color: #FFFFFF;
-  }
+}
 
-  .order-form__title--additional {
-    max-width: 200px;
-    margin-left: -40px;
-    padding-right: 41px;
-    padding-left: 40px;
-    margin-bottom: 63px;
-    background-color: #FFFFFF;
+    .order-form__title--additional {
+      max-width: 275px;
+      margin-bottom: 55px;
+      margin-left: 0px;
+      padding: 0;
   }
 
   .order-form__textarea {
@@ -246,18 +233,19 @@
     line-height: 30px;
     color: #444444;
     text-transform: uppercase;
-    min-height: 174px;
-    padding: 9px 12px 9px 15px;
+    padding: 10px 12px 9px 19px;
+    width: 631px;
+    height: 174px;
   }
 
-  .order-form__button {
+   .order-form__button {
     font-size: 20px;
     line-height: 20px;
     display: inline-block;
-    margin: 0;
-    padding: 19px;
-    margin-right: 61px;
-    width: 282px;
+    padding: 17px;
+    margin-right: 51px;
+    width: 301px;
+    margin-bottom: 72px;
   }
 
   .order-form__note {
@@ -267,36 +255,37 @@
     color: #000000;
     margin: 0;
     padding: 0;
+    display: inline-block;
   }
 }
 
 @media (min-width: 1440px) {
   .order-form__fields {
     gap: 20px;
+    width: 568px;
   }
 
-  .order-form__shell {
+ .order-form__shell {
     padding: 0;
     max-width: 1220px;
     margin: 0 auto;
   }
 
   .order-form__wrapper {
-    max-width: 1220px;
     display: grid;
-    grid-template-columns: 569px 568px;
+    grid-template-columns: 569px 571px;
     column-gap: 80px;
-    margin-bottom: 69px;
+    margin-bottom: 64px;
     padding: 0;
   }
 
   .order-form__fieldset--program {
-    padding: 25px 28px;
-    margin-bottom: 0;
+    margin: 0;
   }
 
   .order-form__fieldset--personal {
     margin-bottom: 0;
+    padding: 0;
   }
 
   .order-form__fieldset--contacts {
@@ -308,7 +297,7 @@
   }
 
   .order-form__fieldset--additional {
-    margin-bottom: 69px;
+    margin-bottom: 66px;
   }
 
   .order-form__fields--contacts {
@@ -324,43 +313,52 @@
     color: #000000;
     margin: 0;
     padding: 0;
+    text-align: center;
   }
 
   .order-form__button {
     font-size: 20px;
     line-height: 20px;
     display: inline-block;
-    margin-right: 81px;
-    width: 568px;
-    padding: 16px;
+    margin: 0;
+    padding: 17px;
+    margin-right: 77px;
+    width: 569px;
+    margin-top: -7px;
+}
+
+  .order-form__fieldset--contacts::before {
+    top: 21px;
   }
 
-  .order-form__title--contacts {
-    max-width: 512px;
-    margin-bottom: 79px;
-    margin-left: 110px;
+  .order-form__fieldset--description::before {
+    top: 24px;
+  }
+
+   .order-form__title--contacts {
+    width: 534px;
+    margin-bottom: 75px;
+    margin-left: -1px;
     padding: 0;
   }
 
   .order-form__title--description {
-    max-width: 182px;
-    margin-bottom: 76px;
-    margin-left: 110px;
+    width: 221px;
+    margin-bottom: 77px;
+    margin-left: 1px;
     padding: 0;
   }
-
 
   .order-form__fieldset--additional {
     &::before {
       top: 24px;
-
     }
   }
 
   .order-form__title--additional {
-    max-width: 275px;
-    margin-bottom: 55px;
-    margin-left: 110px;
+    width: 252px;
+    margin-bottom: 64px;
+    margin-left: -1px;
     padding: 0;
   }
 

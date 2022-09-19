@@ -144,16 +144,26 @@
 
   .additionally-feed__specification-list {
     margin: 0 0 0 auto;
-    width: 256px;
+    width: 327px;
   }
 
   .additionally-feed__card {
     border-top: 1px solid #CDCDCD;
-    padding: 11px 0;
+    padding: 18px 0 12px;
+    border-left: none;
+    border-right: none;
+  }
+
+  .additionally-feed__title {
+    margin: 0;
+  }
+
+  .additionally-feed__specification-item {
+    margin-top: 5px;
   }
 
   .additionally-feed__order-button {
-    width: auto;
+    width: 244px;
   }
 
   .additionally-feed__container {
@@ -164,7 +174,7 @@
     margin: 0 auto;
     padding: 0;
     height: 288px;
-    margin-bottom: 86px;
+    margin-bottom: 164px;
   }
 
   .additionally-feed__extra {
@@ -172,4 +182,23 @@
     margin-right: 79px;
   }
 
+  .additionally-feed__text {
+    margin: 68px 40px 3px 111px;
+  }
+
+  .additionally-feed__one {
+    margin-right: 112px;
+  }
+
+  .additionally-feed__two {
+    margin-right: 178px;
+  }
+
+  .additionally-feed__three {
+    margin-right: 196px;
+  }
+
+  .additionally-feed__four {
+    margin-right: 121px;
+  }
 }
