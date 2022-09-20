@@ -3,7 +3,7 @@
 }
 
 .main-content__header {
-  padding: 29px 20px 39px;
+  padding: 28px 20px 39px;
 }
 
 .main-content__title {
@@ -18,7 +18,7 @@
 
 @media (min-width: 768px) {
   .main-content__header {
-    padding: 40px 30px 78px;
+    padding: 40px 30px 82px;
   }
 
   .main-content__title {
@@ -41,10 +41,11 @@
 
 @media (min-width: 1440px) {
   .main-content__header {
-    padding: 74px 0 80px;
+    padding: 74px 0 88px;
     max-width: 1220px;
     margin: 0 auto;
   }
+
 
   .main-content__catalog {
     max-width: 1220px;

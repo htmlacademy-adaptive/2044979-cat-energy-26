@@ -8,7 +8,7 @@
   color: #000000;
   font-size: 36px;
   line-height: 36px;
-  padding: 0 20px;
+   margin: 24px 0 35px;
 }
 
 .form-program__text {
@@ -16,7 +16,7 @@
   line-height: 18px;
   text-transform: uppercase;
   color: #000000;
-  margin-bottom: 42px;
+  margin-bottom: 38px;
   padding: 0 20px;
 }
 
@@ -26,39 +26,44 @@
     font-size: 60px;
     line-height: 60px;
     padding: 0;
-  }
-
-  .form-program__text {
-    padding: 0;
+	  margin: 0;
   }
 
   .form-program__header {
-    padding: 33px 36px 54px 40px;
+    padding: 40px 36px 35px 68px;
+  }
+
+  .form-program__order {
+    padding: 0 36px 0 40px;
   }
 
   .form-program__text {
     font-size: 20px;
     line-height: 30px;
     text-transform: uppercase;
-    color: #000000;
     margin-bottom: 68px;
-    max-width: 323px;
-    padding: 0;
+    margin-left: 11px;
   }
 }
 
 @media (min-width: 1440px) {
   .form-program__header {
-    padding: 72px 0 56px;
+    padding: 79px 0 35px;
+  }
+
+  .form-program__wrapper {
+    padding: 0;
+    max-width: 1220px;
+    margin: 0 auto;
+  }
+
+  .form-program__order {
+    padding: 0 0 81px;
   }
 
   .form-program__text {
-    margin-left: 110px;
+    margin-bottom: 69px;
     padding: 0;
-  }
-
-  .form-program__title {
-    margin-left: 110px;
-    padding: 0;
+    margin-left: 0;
   }
 }

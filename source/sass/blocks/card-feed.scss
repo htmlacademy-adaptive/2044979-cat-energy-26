@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
-  padding: 19px 20px 12px 20px;
+  padding: 0 20px
 }
 
 .card-feed__specification-list {
@@ -128,14 +128,14 @@
 @media (min-width: 768px) {
   .card-feed {
     grid-template-columns: 1fr;
-    padding: 0 36px 39px;
+    padding: 0 37px 43px;
     background: linear-gradient(#FFFFFF 15%, #F2F2F2 15%);
   }
 
   .card-feed__link-image {
     display: block;
     order: -1;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
   }
 
   .card-feed__specification-list {
@@ -144,21 +144,18 @@
     font-size: 16px;
     line-height: 16px;
     color: #444444;
-    margin-bottom: 33px;
+    margin-bottom: 28px;
+    margin-top: -2px;
   }
 
   .card-feed__title {
-    margin-bottom: 21px;
-    text-align: center;
-  }
-
-  .card-feed__link-title {
-    text-decoration: none;
     font-size: 20px;
     line-height: 24px;
-    color: #222222;
-    text-transform: uppercase;
-    margin: 0;
+    margin-bottom: 19px;
+    padding: 0 47px 0 50px;
+    text-align: center;
+    width: 100%;
+    margin-top: 9px;
   }
 
   .card-feed__text {
@@ -181,13 +178,13 @@
   }
 
   .card-feed__icon {
-    width: 100%;
-    height: auto;
+    width: 170px;
+    height: 215px;
   }
 
   .card-feed--additionally {
     background: #FFFFFF;
-    padding: 267px 39px 39px;
+    padding: 245px 39px 39px;
     max-width: 500px;
 
     &::before {
@@ -196,7 +193,7 @@
       height: 60px;
       left: 50%;
       transform: translateX(-30px);
-      top: 160px;
+      top: 136px;
     }
 
     &::after {
@@ -215,33 +212,35 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 22px;
-    color: #111111;
-    text-align: center;
     margin-bottom: 23px;
     margin-top: 0;
+    width: 141px;
+    position: relative;
+    left: 55px;
   }
 
   .card-feed__subtitle {
+    left: 41px;
     font-size: 16px;
     line-height: 18px;
     color: #444444;
     margin-bottom: 87px;
     margin-top: 0;
+    width: 167px;
+    position: relative;
   }
 
   .card-feed__button {
-    width: 100%;
+    width: 249px;
   }
 }
 
 @media (min-width: 1440px) {
-  .card-feed {
-    justify-content: space-evenly;
-  }
-
   .card-feed__title {
     padding: 0 23px;
-    margin-bottom: 10px;
+    margin-bottom: -4px;
+    margin-top: 20px;
+    width: 179px;
   }
 
   .card-feed--additionally {
@@ -252,7 +251,13 @@
 
   .card-feed__product {
     margin-bottom: 23px;
-    margin-top: 49px;
+    margin-top: 77px;
+    left: 16px;
+  }
+
+  .card-feed__subtitle {
+    left: 4px;
+    margin-bottom: 83px;
   }
 
   .card-feed--additionally {
@@ -264,7 +269,7 @@
       height: 60px;
       left: 50%;
       transform: translateX(-30px);
-      top: 100px;
+      top: 132px;
     }
 
     &::after {
@@ -276,5 +281,25 @@
       right: 0;
       border: 2px solid #F2F2F2;
     }
+  }
+
+  .card-feed__specification-list {
+    margin-bottom: 30px;
+    margin-top: 24px;
+    margin-right: 7px;
+    margin-left: 5px;
+  }
+
+  .card-feed__icon {
+    width: 174px;
+    height: 199px;
+  }
+
+  .card-feed__order-button {
+    width: 172px;
+  }
+
+  .card-feed__button {
+    width: 172px;
   }
 }

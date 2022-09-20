@@ -2,31 +2,31 @@
 <html class="page" lang="ru">
 
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Интернет-магазин фитнес еды для котиков</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico">
-    <link rel="icon" href="img/favicons/favicon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="img//favicons/apple.png">
-    <link rel="manifest" href="manifest.webmanifest">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Интернет-магазин фитнес еды для котиков</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="img/favicons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img//favicons/apple.png">
+  <link rel="manifest" href="manifest.webmanifest">
+</head>
 
-  <body class="page__body">
-    <header class="main-header">
-      <div class="main-header__page main-header__page--closed main-header__page--nojs">
-        <a class="main-header__logo" href="index.html">
-          <picture>
-            <source media="(min-width: 768px)" srcset="img/logo-cat-tablet.svg">
-            <img class="main-header__logo-image" src="img/logo-cat-energy.svg" width="33" height="38"
-              alt="Интернет-магазин Cat-Energy">
-          </picture>
-          <img class="main-header__logo-text" src="img/logotype-text.svg" width="101" height="18" alt="Логотип Cat-Energy"
-            aria-hidden="true">
-        </a>
-        <button class="main-header__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
-      </div>
+<body class="page__body">
+  <header class="main-header">
+    <div class="main-header__page main-header__page--closed main-header__page--nojs">
+      <a class="main-header__logo" href="index.html">
+        <picture>
+          <source media="(min-width: 768px)" srcset="img/logo-cat.svg">
+          <img class="main-header__logo-image" src="img/logo-cat-energy.svg" width="33" height="38"
+            alt="Интернет-магазин Cat-Energy">
+        </picture>
+      </a>
+      <img class="main-header__logo-text" src="img/logotype-text.svg" width="101" height="18" alt="Логотип Cat-Energy"
+        aria-hidden="true">
+      <button class="main-header__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+    </div>
     <nav class="main-nav">
       <div class="main-nav__wrapper">
         <ul class="main-nav__list">
@@ -51,28 +51,31 @@
   </header>
   <main class="form-program">
     <div class="form-program__wrapper">
-      <header class="form-program__header">
+      <header class="form-program__header container">
         <h1 class="form-program__title">Подбор программы</h1>
       </header>
       <section class="form-program__order">
         <h2 class="visually-hidden">Форма анкеты</h2>
         <p class="form-program__text">Заполните анкету, и мы подберем<br> программу питания для вашего кота</p>
         <form class="form-program__form order-form">
-          <div class="order-form__wrapper container">
-            <section class="order-form__fieldset order-form__fieldset--personal">
+          <div class="order-form__wrapper">
+            <section class="order-form__fieldset order-form__fieldset--personal container">
               <h2 class="visually-hidden">Данные вашего кота</h2>
               <ul class="order-form__fields container">
                 <li class="order-form__fields-item field">
                   <label class="field__label" for="form-name">Имя:*</label>
-                  <input class="field__input" type="text" id="form-name" name="cat-name" placeholder="Барсик" required>
+                  <input class="field__input" type="text" id="form-name" name="cat-name" placeholder="Барсик"
+                    pattern="^[А-Яа-яЁё\s]+$" required>
                 </li>
                 <li class="order-form__fields-item field">
                   <label class="field__label" for="form-weight">Вec (кг):*</label>
-                  <input class="field__input" type="text" id="form-weight" name="cat-weight" placeholder="7" required>
+                  <input class="field__input" type="text" id="form-weight" name="cat-weight" placeholder="7"
+                    pattern="^[ 0-9]+$" required>
                 </li>
                 <li class="order-form__fields-item field">
                   <label class="field__label" for="form-age">Возраст(лет):</label>
-                  <input class="field__input" type="text" id="form-age" name="cat-age" placeholder="7" required>
+                  <input class="field__input" type="text" id="form-age" name="cat-age" placeholder="7"
+                    pattern="^[ 0-9]+$" required>
                 </li>
               </ul>
             </section>
@@ -111,18 +114,20 @@
                 <li class="order-form__fields-item field">
                   <label class="field__label" for="form-email">E-mail:*</label>
                   <input class="field__input" type="email" id="form-email" name="form-email"
-                    placeholder="kuklachev@gmail.com" required>
-                    <svg class="field__mail" width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <use xlink:href="./img/sprite.svg#icon-email"></use>
-                    </svg>
+                    placeholder="kuklachev@gmail.com" required" placeholder="kuklachev@gmail.com" required>
+                  <svg class="field__mail" width="19" height="14" viewBox="0 0 19 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <use xlink:href="./img/sprite.svg#icon-email"></use>
+                  </svg>
                 </li>
                 <li class="order-form__fields-item field">
                   <label class="field__label" for="form-phone">Телефон:*</label>
                   <input class="field__input" placeholder="8 (960) 900-60-90" type="tel" name="form-phone"
                     id="form-phone" pattern="^[ 0-9]+$" required>
-                    <svg class="field__mail" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <use xlink:href="./img/sprite.svg#icon-phone"></use>
-                    </svg>
+                  <svg class="field__mail" width="20" height="21" viewBox="0 0 20 21" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <use xlink:href="./img/sprite.svg#icon-phone"></use>
+                  </svg>
                 </li>
               </ul>
             </div>
@@ -180,8 +185,8 @@
   <footer class="main-footer">
     <div class="main-footer__transit">
       <div class="main-footer__contacts">
-        <p class="main-footer__text">Приглашаем к сотрудничеству дилеров!</p>
-        <address class="main-footer__adress">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
+        <p class="main-footer__text">Приглашаем<br> к сотрудничеству дилеров!</p>
+        <address class="main-footer__adress">ул. Большая Конюшенная, д. 19/8<br><br>Санкт-Петербург</address>
       </div>
       <div class="main-footer__map">
         <iframe class="main-footer__location"
@@ -207,24 +212,27 @@
         <ul class="main-footer__social">
           <li class="main-footer__item main-footer__item--vkontakte">
             <a class="main-footer__link" href="https://vk.com/htmlacademy">
-              <svg class="main-footer__icon" width="27" height="17" viewBox="0 0 27 17" xmlns="http://www.w3.org/2000/svg">
+              <svg class="main-footer__icon" width="27" height="17" viewBox="0 0 27 17"
+                xmlns="http://www.w3.org/2000/svg">
                 <use xlink:href="./img/sprite.svg#vkontakte-icon"></use>
               </svg>
             </a>
           </li>
           <li class="main-footer__item main-footer__item--youtube">
             <a class="main-footer__link" href="https://www.youtube.com/user/htmlacademyru">
-              <svg class="main-footer__icon" width="24" height="19" viewBox="0 0 24 19" xmlns="http://www.w3.org/2000/svg">
+              <svg class="main-footer__icon" width="24" height="19" viewBox="0 0 24 19"
+                xmlns="http://www.w3.org/2000/svg">
                 <use xlink:href="./img/sprite.svg#youtube-icon"></use>
               </svg>
             </a>
           </li>
           <li class="main-footer__item main-footer__item--telegramm">
-              <a class="main-footer__link" href="https://t.me/htmlacademy"">
-                <svg class="main-footer__icon" width="20" height="18" viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
-                  <use xlink:href="./img/sprite.svg#telegram-icon"></use>
-                </svg>
-              </a>
+            <a class="main-footer__link" href="https://t.me/htmlacademy"">
+                <svg class=" main-footer__icon" width="20" height="18" viewBox="0 0 20 18"
+              xmlns="http://www.w3.org/2000/svg">
+              <use xlink:href="./img/sprite.svg#telegram-icon"></use>
+              </svg>
+            </a>
           </li>
         </ul>
         <div class="main-footer__rights">
