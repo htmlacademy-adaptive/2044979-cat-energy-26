@@ -175,11 +175,11 @@
   }
 
   .order-form__fieldset--contacts {
-    margin-bottom: 72px;
+    margin-bottom: 68px;
   }
 
   .order-form__fieldset--description {
-    margin-bottom: 65px;
+    margin-bottom: 60px;
   }
 
   .order-form__fieldset--additional {
@@ -189,8 +189,9 @@
   .order-form__fields--additional {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 10%;
     row-gap: 40px;
+    width: 668px;
+    height: 100px;
   }
 
   .order-form__fields--additional .order-form__fields-item {
@@ -211,21 +212,21 @@
     padding-right: 42px;
     padding-left: 39px;
     background-color: #FFFFFF;
-    margin-bottom: 77px;
+    margin-bottom: 76px;
   }
 
   .order-form__title--description {
-	  max-width: 267px;
+    max-width: 267px;
     margin-left: 29px;
     background-color: #FFFFFF;
-    margin-bottom: 72px;
+    margin-bottom: 75px;
 }
 
-    .order-form__title--additional {
-      max-width: 275px;
-      margin-bottom: 55px;
-      margin-left: 0px;
-      padding: 0;
+  .order-form__title--additional {
+    max-width: 275px;
+    margin-bottom: 67px;
+    margin-left: 29px;
+    padding: 0;
   }
 
   .order-form__textarea {
@@ -263,6 +264,7 @@
   .order-form__fields {
     gap: 20px;
     width: 568px;
+    padding: 0;
   }
 
  .order-form__shell {
@@ -324,7 +326,7 @@
     padding: 17px;
     margin-right: 77px;
     width: 569px;
-    margin-top: -7px;
+    margin-top: -8px;
 }
 
   .order-form__fieldset--contacts::before {
@@ -366,5 +368,6 @@
     display: grid;
     grid-template-columns: repeat(4, 221px);
     column-gap: 104px;
+    height: auto;
   }
 }

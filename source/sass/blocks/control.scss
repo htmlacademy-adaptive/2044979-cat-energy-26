@@ -78,6 +78,7 @@
   .control__text {
     font-size: 20px;
     line-height: 30px;
+    margin-left: 50px;
   }
 
   .control__text--additional {
@@ -87,11 +88,18 @@
   .control__mark {
     width: 40px;
     height: 40px;
-    left: 10px;
+    left: -2px;
   }
 
   .control__label {
-    padding-left: 26px;
+    position: relative;
+    display: flex;
+    min-height: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    top: -3px;
+    left: 31px;
+    padding-left: 9px;
   }
 
   .control__input:checked + .control__mark--radio::before {
@@ -110,17 +118,24 @@
 
 @media (min-width: 1440px) {
   .control__text-context {
-    margin-left: 44px;
-    margin-top: 6px;
-  }
+    margin-left: 48px;
+    margin-top: 5px;
+}
 
   .control__mark {
+    top: -8px;
     width: 40px;
     height: 40px;
-    left: -1px;
+    left: -32px;
+  }
+
+  .control__mark--radio {
+    top: 2px;
+    left: -2px;
   }
 
   .control__text--additional {
-    margin-left: 33px;
+    margin-left: 18px;
+    margin-top: -5px;
 }
 }
