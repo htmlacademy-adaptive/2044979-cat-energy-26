@@ -1,5 +1,5 @@
 .description__wrapper {
-  padding: 20px 20px 49px;
+  padding: 25px 20px 41px;
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
@@ -28,7 +28,7 @@
   color: #000000;
   text-align: center;
   margin: 0;
-  margin-bottom: 44px;
+  margin-bottom: 42px;
   margin-right: 54px;
 }
 
@@ -105,7 +105,7 @@
     &::before {
       width: 80px;
       height: 80px;
-      top: 5px;
+      top: 2px;
     }
 }
 
@@ -135,7 +135,7 @@
 }
 
 .description__wrapper {
-  padding: 45px 30px 27px;
+  padding: 45px 30px 31px;
   border-bottom: 1px solid #E6E6E6;
 }
 
@@ -151,7 +151,7 @@
 
 .description__item {
   width: 249px;
-  padding: 115px 0 56px 0;
+  padding: 114px 0 69px 0;
   counter-increment: number;
   position: relative;
 
@@ -172,9 +172,6 @@
     }
   }
 
-  .description__item--healthy {
-    margin-bottom: 30px;
-  }
 }
 
 @media (min-width: 1440px) {

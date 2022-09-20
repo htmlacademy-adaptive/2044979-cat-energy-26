@@ -128,7 +128,7 @@
 @media (min-width: 768px) {
   .card-feed {
     grid-template-columns: 1fr;
-    padding: 0 36px 39px;
+    padding: 0 37px 43px;
     background: linear-gradient(#FFFFFF 15%, #F2F2F2 15%);
   }
 
@@ -155,7 +155,7 @@
     padding: 0 47px 0 50px;
     text-align: center;
     width: 100%;
-    margin-top: 14px;
+    margin-top: 9px;
   }
 
   .card-feed__text {
@@ -239,7 +239,7 @@
   .card-feed__title {
     padding: 0 23px;
     margin-bottom: -4px;
-    margin-top: 25px;
+    margin-top: 20px;
     width: 179px;
   }
 
@@ -250,13 +250,14 @@
   }
 
   .card-feed__product {
-    margin-bottom: 22px;
-    margin-top: 81px;
+    margin-bottom: 23px;
+    margin-top: 77px;
     left: 16px;
   }
 
   .card-feed__subtitle {
     left: 4px;
+    margin-bottom: 83px;
   }
 
   .card-feed--additionally {
