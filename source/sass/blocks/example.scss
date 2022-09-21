@@ -195,7 +195,7 @@
   }
 
   .example {
-    background: linear-gradient(#FFFFFF 56.9%, #EAEAEA 56.9%);
+    background: linear-gradient(#FFFFFF 57.1%, #EAEAEA 57.1%);
   }
 
   .example__description-br {
@@ -270,7 +270,8 @@
     bottom: -7px;
     background-color: #ffffff;
     position: absolute;
-    margin-left: 11px;
+    margin-left: -5px;
+    width: 129px;
   }
 
   .example__expenses {
@@ -304,7 +305,7 @@
 
 @media (min-width: 1440px) {
   .example {
-    background: linear-gradient(#FFFFFF 22%, #EAEAEA 22%);
+    background: linear-gradient(#FFFFFF 23%, #EAEAEA 23%);
   }
 
   .example__description-br {

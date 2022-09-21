@@ -153,13 +153,14 @@
     font-size: 16px;
     line-height: 20px;
     text-align: right;
-    max-width: 180px;
+    width: 160px;
   }
 
   .main-footer__contacts {
-    padding: 61px 70px;
+    padding: 63px 71px;
     display: flex;
     background: #F2F2F2;
+    align-items: flex-start;
   }
 
   .main-footer__logo-title {
@@ -236,6 +237,9 @@
   .main-footer__text {
     margin: 0;
     padding-right: 29px;
+    width: 260px;
+    height: 76px;
+    margin-top: 1px;
   }
 
   .br {

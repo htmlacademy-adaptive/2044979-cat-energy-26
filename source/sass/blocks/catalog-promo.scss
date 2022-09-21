@@ -2,11 +2,12 @@
   background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/catalog/mobile-cat.jpg");
   position: relative;
   min-height: 289px;
-  padding-top: 187px;
-  margin-top: 19px;
+  padding-top: 188px;
+  margin-top: 35px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 38px;
 
   @media (min-resolution: 2dppx) {
     background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/catalog/mobile-cat@2x.jpg");
@@ -16,9 +17,9 @@
 .catalog-promo__icon {
   position: absolute;
   left: 50%;
-  top: 65px;
-  width: 56px;
-  height: 61px;
+  top: 61px;
+  width: 78px;
+  height: 77px;
   transform: translateX(-50%);
 }
 
