@@ -304,8 +304,8 @@
 }
 
 .main-header__logo-text {
-  margin-left: -10px;
-  margin-bottom: 1px;
+  margin-left: 57px;
+  margin-bottom: 6px;
 }
 
 .main-header__logo:hover {
@@ -887,7 +887,7 @@
   }
 
   .example {
-    background: linear-gradient(#FFFFFF 56.9%, #EAEAEA 56.9%);
+    background: linear-gradient(#FFFFFF 57.1%, #EAEAEA 57.1%);
   }
 
   .example__description-br {
@@ -962,7 +962,8 @@
     bottom: -7px;
     background-color: #ffffff;
     position: absolute;
-    margin-left: 11px;
+    margin-left: -5px;
+    width: 129px;
   }
 
   .example__expenses {
@@ -995,7 +996,7 @@
 }
 @media (min-width: 1440px) {
   .example {
-    background: linear-gradient(#FFFFFF 22%, #EAEAEA 22%);
+    background: linear-gradient(#FFFFFF 23%, #EAEAEA 23%);
   }
 
   .example__description-br {
@@ -1148,8 +1149,9 @@
   margin: 0;
   display: grid;
   align-items: center;
-  margin-top: 13px;
-  margin-bottom: 19px;
+  padding-bottom: 15px;
+  border-top: 1px solid #CDCDCD;
+  margin-top: -2px;
 }
 
 .additionally-feed__text {
@@ -1163,8 +1165,8 @@
 }
 
 .additionally-feed__title {
-  margin: 0;
-  padding: 0;
+  margin-bottom: -3px;
+  margin-top: 4px;
 }
 
 .additionally-feed__link-title {
@@ -1179,7 +1181,8 @@
 }
 
 .additionally-feed__card--items {
-  padding-bottom: 35px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #CDCDCD;
 }
 
 .additionally-feed__value {
@@ -1237,7 +1240,7 @@
   .additionally-feed__title {
     margin: 0;
     padding: 0;
-    margin-bottom: 18px;
+    margin-bottom: 19px;
   }
 
   .additionally-feed__card {
@@ -1245,7 +1248,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 25px 38px;
+    padding: 25px 36px;
     box-sizing: border-box;
     border: 1px solid #CDCDCD;
   }
@@ -1336,11 +1339,12 @@
   background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/catalog/mobile-cat.jpg");
   position: relative;
   min-height: 289px;
-  padding-top: 187px;
-  margin-top: 19px;
+  padding-top: 188px;
+  margin-top: 35px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 38px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
   .catalog-promo {
@@ -1351,9 +1355,9 @@
 .catalog-promo__icon {
   position: absolute;
   left: 50%;
-  top: 65px;
-  width: 56px;
-  height: 61px;
+  top: 61px;
+  width: 78px;
+  height: 77px;
   transform: translateX(-50%);
 }
 
@@ -1579,13 +1583,14 @@
     font-size: 16px;
     line-height: 20px;
     text-align: right;
-    max-width: 180px;
+    width: 160px;
   }
 
   .main-footer__contacts {
-    padding: 61px 70px;
+    padding: 63px 71px;
     display: flex;
     background: #F2F2F2;
+    align-items: flex-start;
   }
 
   .main-footer__logo-title {
@@ -1661,6 +1666,9 @@
   .main-footer__text {
     margin: 0;
     padding-right: 29px;
+    width: 260px;
+    height: 76px;
+    margin-top: 1px;
   }
 
   .br {
@@ -2061,11 +2069,11 @@
   }
 
   .order-form__fieldset--contacts::before {
-    top: 21px;
+    top: 24px;
   }
 
   .order-form__fieldset--description::before {
-    top: 24px;
+    top: 25px;
   }
 
   .order-form__title--contacts {
@@ -2199,7 +2207,8 @@
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
-  padding: 0 20px;
+  padding: 0px 20px 25px 20px;
+  border-bottom: 1px solid #EBEBEB;
 }
 
 .card-feed__specification-list {
@@ -2208,6 +2217,10 @@
   font-size: 12px;
   line-height: 16px;
   color: #444444;
+  width: 141px;
+  height: 93px;
+  top: 38px;
+  position: relative;
 }
 
 .card-feed__specification-item {
@@ -2218,6 +2231,12 @@
 .card-feed__title {
   margin: 0;
   font-weight: 400;
+  width: 94px;
+  height: 4px;
+  margin-left: 138px;
+  margin-top: 22px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .card-feed__link-title {
@@ -2251,7 +2270,9 @@
 
 .card-feed__link-image {
   display: block;
-  text-align: center;
+  max-width: 139px;
+  height: 115px;
+  margin-top: -14px;
 }
 
 .card-feed__text {
@@ -2269,8 +2290,10 @@
   text-transform: uppercase;
   text-align: center;
   color: #111111;
-  margin-bottom: 8px;
+  margin-bottom: 11px;
   padding: 0;
+  margin-top: 0;
+  font-weight: 400;
 }
 
 .card-feed__subtitle {
@@ -2279,7 +2302,8 @@
   font-size: 12px;
   line-height: 16px;
   color: #444444;
-  margin-bottom: 21px;
+  margin-bottom: 22px;
+  margin-top: -4px;
   padding: 0;
   text-align: center;
 }
@@ -2321,12 +2345,16 @@
     grid-template-columns: 1fr;
     padding: 0 37px 43px;
     background: linear-gradient(#FFFFFF 15%, #F2F2F2 15%);
+    border: none;
   }
 
   .card-feed__link-image {
-    display: block;
     order: -1;
-    margin-bottom: 12px;
+    text-align: center;
+    margin-top: 7px;
+    max-width: qad;
+    height: auto;
+    max-width: 254px;
   }
 
   .card-feed__specification-list {
@@ -2335,18 +2363,23 @@
     font-size: 16px;
     line-height: 16px;
     color: #444444;
-    margin-bottom: 28px;
-    margin-top: -2px;
+    margin-top: -4px;
+    display: block;
+    width: 250px;
+    top: 0;
+    margin-bottom: 27px;
   }
 
   .card-feed__title {
     font-size: 20px;
     line-height: 24px;
-    margin-bottom: 19px;
+    margin-bottom: 15px;
     padding: 0 47px 0 50px;
     text-align: center;
-    width: 100%;
-    margin-top: 9px;
+    width: 243px;
+    margin-top: 14px;
+    margin-left: 3px;
+    height: 58px;
   }
 
   .card-feed__text {
@@ -2365,12 +2398,13 @@
 
   .card-feed__specification-item {
     border-bottom: 1px solid #CDCDCD;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
   }
 
   .card-feed__icon {
-    width: 170px;
-    height: 215px;
+    width: 165px;
+    height: 206px;
+    margin-bottom: 6px;
   }
 
   .card-feed--additionally {
@@ -2401,11 +2435,11 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 22px;
-    margin-bottom: 23px;
-    margin-top: 0;
+    margin-bottom: 27px;
     width: 141px;
     position: relative;
     left: 55px;
+    margin-top: -7px;
   }
 
   .card-feed__subtitle {
@@ -2427,14 +2461,25 @@
   .card-feed__title {
     padding: 0 23px;
     margin-bottom: -4px;
-    margin-top: 20px;
+    margin-top: 31px;
     width: 179px;
+    margin-left: 0;
+  }
+
+  .card-feed__link-title {
+    font-size: 20px;
+    line-height: 24px;
   }
 
   .card-feed--additionally {
     background: #FFFFFF;
     width: 245px;
     padding: 161px 35px 39px;
+  }
+
+  .card-feed__specification-item {
+    border-bottom: 1px solid #CDCDCD;
+    margin-bottom: 4px;
   }
 
   .card-feed__product {
@@ -2470,15 +2515,17 @@
   }
 
   .card-feed__specification-list {
-    margin-bottom: 30px;
-    margin-top: 24px;
+    margin-bottom: 29px;
+    margin-top: 17px;
     margin-right: 7px;
     margin-left: 5px;
+    width: 166px;
+    height: 90px;
   }
 
   .card-feed__icon {
-    width: 174px;
-    height: 199px;
+    width: 172px;
+    height: 189px;
   }
 
   .card-feed__order-button {
@@ -2487,6 +2534,15 @@
 
   .card-feed__button {
     width: 172px;
+  }
+
+  .card-feed__link-image {
+    order: -1;
+    text-align: center;
+    margin-top: 7px;
+    max-width: qad;
+    height: auto;
+    max-width: 175px;
   }
 }
 .inner-header {
@@ -2763,6 +2819,8 @@
 
 .main-content__header {
   padding: 28px 20px 39px;
+  border-top: 1px solid #D9D9D9;
+  border-bottom: 1px solid #D9D9D9;
 }
 
 .main-content__title {
@@ -2777,7 +2835,8 @@
 
 @media (min-width: 768px) {
   .main-content__header {
-    padding: 40px 30px 82px;
+    padding: 40px 30px 84px;
+    border: none;
   }
 
   .main-content__title {
@@ -2798,7 +2857,7 @@
 }
 @media (min-width: 1440px) {
   .main-content__header {
-    padding: 74px 0 88px;
+    padding: 74px 0 84px;
     max-width: 1220px;
     margin: 0 auto;
   }
