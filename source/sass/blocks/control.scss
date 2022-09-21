@@ -1,3 +1,12 @@
+.control__label {
+  position: relative;
+  display: flex;
+  min-height: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+  top: -4px;
+}
+
 .control__mark {
   position: absolute;
   left: 0;
@@ -7,7 +16,6 @@
   cursor: pointer;
   background-color: #ffffff;
   border: 1px solid #CDCDCD;
-  margin-left: 20px;
 }
 
 .control__input:checked + .control__mark--checkbox::before {
@@ -16,9 +24,9 @@
   top: 50%;
   left: 50%;
   transform: translateY(-14px) translateX(-13px);
-    width: 100%;
+  width: 100%;
   height: 100%;
-  background: url("../img/arrow-check.svg") no-repeat center;
+  background: url("../img/check-mark.svg") no-repeat center;
 }
 
 .control__mark--radio {
@@ -50,13 +58,27 @@
 }
 
 .control__text-context {
-  margin-left: 46px;
+  margin-left: 44px;
+  margin-top: 10px;
+}
+
+.control__input:focus ~ .control__mark {
+  border-color: #222222;
+}
+
+.control__input:hover ~ .control__mark {
+  border-color: #bababa;
+}
+
+.control__input:disabled ~ .control__text {
+  color: rgba(#222222, 0.3);
 }
 
 @media (min-width: 768px) {
   .control__text {
     font-size: 20px;
     line-height: 30px;
+    margin-left: 50px;
   }
 
   .control__text--additional {
@@ -66,10 +88,18 @@
   .control__mark {
     width: 40px;
     height: 40px;
+    left: -2px;
   }
 
   .control__label {
-    padding-left: 60px;
+    position: relative;
+    display: flex;
+    min-height: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    top: -3px;
+    left: 31px;
+    padding-left: 9px;
   }
 
   .control__input:checked + .control__mark--radio::before {
@@ -84,4 +114,28 @@
     transform: translateY(-19px) translateX(-18px);
     background-size: 26px 26px;
   }
+}
+
+@media (min-width: 1440px) {
+  .control__text-context {
+    margin-left: 48px;
+    margin-top: 5px;
+}
+
+  .control__mark {
+    top: -8px;
+    width: 40px;
+    height: 40px;
+    left: -32px;
+  }
+
+  .control__mark--radio {
+    top: 2px;
+    left: -2px;
+  }
+
+  .control__text--additional {
+    margin-left: 18px;
+    margin-top: -5px;
+}
 }

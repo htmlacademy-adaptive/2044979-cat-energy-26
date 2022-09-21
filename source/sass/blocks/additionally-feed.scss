@@ -7,9 +7,8 @@
     height: 2px;
     background-color: #68B738;
     position: absolute;
-    top: 23px;
-    z-index: 0;
-
+    top: 21px;
+    z-index: -1;
   }
 }
 
@@ -17,8 +16,9 @@
   margin: 0;
   display: grid;
   align-items: center;
-  margin-top: 13px;
-  margin-bottom: 19pxw;
+  padding-bottom: 15px;
+  border-top: 1px solid #CDCDCD;
+  margin-top: -2px;
 }
 
 .additionally-feed__text {
@@ -33,8 +33,8 @@
 }
 
 .additionally-feed__title {
-  margin: 0;
-  padding: 0;
+  margin-bottom: -3px;
+  margin-top: 4px;
 }
 
 .additionally-feed__link-title {
@@ -49,7 +49,8 @@
 }
 
 .additionally-feed__card--items {
-  padding-bottom: 35px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #CDCDCD;
 }
 
 .additionally-feed__value {
@@ -93,7 +94,21 @@
   .additionally-feed__text {
     font-size: 36px;
     line-height: 36px;
-    margin: 25px 22px 80px 0px;
+    margin: 68px 40px 79px 67px;
+    width: 374px;
+    background-color: #ffffff;
+  }
+
+  .additionally-feed__specification-item {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: -19px;
+  }
+
+  .additionally-feed__title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 19px;
   }
 
   .additionally-feed__card {
@@ -101,7 +116,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 27px 38px;
+    padding: 25px 36px;
     box-sizing: border-box;
     border: 1px solid #CDCDCD;
   }
@@ -115,6 +130,13 @@
     margin-right: 49px;
   }
 
+  .additionally-feed__one {
+    margin-right: 49px;
+  }
+
+  .additionally-feed__two {
+    margin-right: 59px;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -124,16 +146,26 @@
 
   .additionally-feed__specification-list {
     margin: 0 0 0 auto;
-    width: 256px;
+    width: 327px;
   }
 
   .additionally-feed__card {
     border-top: 1px solid #CDCDCD;
-    padding: 11px 0;
+    padding: 15px 0 15px;
+    border-left: none;
+    border-right: none;
+  }
+
+  .additionally-feed__title {
+    margin: 0;
+  }
+
+  .additionally-feed__specification-item {
+    margin-top: 5px;
   }
 
   .additionally-feed__order-button {
-    width: auto;
+    width: 244px;
   }
 
   .additionally-feed__container {
@@ -144,7 +176,7 @@
     margin: 0 auto;
     padding: 0;
     height: 288px;
-    margin-bottom: 86px;
+    margin-bottom: 164px;
   }
 
   .additionally-feed__extra {
@@ -152,4 +184,23 @@
     margin-right: 79px;
   }
 
+  .additionally-feed__text {
+    margin: 68px 40px 3px 111px;
+  }
+
+  .additionally-feed__one {
+    margin-right: 112px;
+  }
+
+  .additionally-feed__two {
+    margin-right: 178px;
+  }
+
+  .additionally-feed__three {
+    margin-right: 196px;
+  }
+
+  .additionally-feed__four {
+    margin-right: 121px;
+  }
 }
