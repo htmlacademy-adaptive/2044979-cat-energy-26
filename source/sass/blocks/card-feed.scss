@@ -3,8 +3,8 @@
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
-  padding: 0px 20px 25px 20px;
-  border-bottom: 1px solid #EBEBEB;
+  padding: 0 20px 25px 20px;
+  border-bottom: 1px solid #ebebeb;
 }
 
 .card-feed__specification-list {
@@ -106,18 +106,18 @@
 }
 
 .card-feed__button {
-  background: #F2F2F2;
+  background: #f2f2f2;
   color: #444444;
   width: 279px;
 }
 
 .card-feed__button:active {
-  background: #EBEBEB;
+  background: #ebebeb;
   color: rgba(#444444, 0.3);
 }
 
 .card-feed__button:hover {
-  background: #EBEBEB;
+  background: #ebebeb;
 }
 
 .card-feed__order-button {
@@ -135,27 +135,25 @@
       width: 1000%;
       height: 1px;
       z-index: -1;
-      background-color: #EBEBEB;
+      background-color: #ebebeb;
     }
   }
 }
-
 
 @media (min-width: 768px) {
   .card-feed {
     grid-template-columns: 1fr;
     padding: 0 37px 43px;
-    background: linear-gradient(#FFFFFF 15%, #F2F2F2 15%);
+    background: linear-gradient(#ffffff 15%, #f2f2f2 15%);
     border: none;
   }
 
   .card-feed__link-image {
     order: -1;
+    max-width: 254px;
     text-align: center;
     margin-top: 7px;
-    max-width: qad;
     height: auto;
-    max-width: 254px;
   }
 
   .card-feed__specification-list {
@@ -198,7 +196,7 @@
   }
 
   .card-feed__specification-item {
-    border-bottom: 1px solid #CDCDCD;
+    border-bottom: 1px solid #cdcdcd;
     margin-bottom: 7px;
   }
 
@@ -209,7 +207,7 @@
   }
 
   .card-feed--additionally {
-    background: #FFFFFF;
+    background: #ffffff;
     padding: 245px 39px 39px;
     max-width: 500px;
 
@@ -230,9 +228,9 @@
       left: 0;
       right: 0;
       pointer-events: none;
-      border: 2px solid #F2F2F2;
+      border: 2px solid #f2f2f2;
+    }
   }
-}
 
   .card-feed__product {
     font-weight: 400;
@@ -275,14 +273,8 @@
     line-height: 24px;
   }
 
-  .card-feed--additionally {
-    background: #FFFFFF;
-    width: 245px;
-    padding: 161px 35px 39px;
-  }
-
   .card-feed__specification-item {
-    border-bottom: 1px solid #CDCDCD;
+    border-bottom: 1px solid #cdcdcd;
     margin-bottom: 4px;
   }
 
@@ -298,7 +290,9 @@
   }
 
   .card-feed--additionally {
-    background: #FFFFFF;
+    background: #ffffff;
+    width: 245px;
+    padding: 161px 35px 39px;
 
     &::before {
       content: "";
@@ -316,7 +310,7 @@
       bottom: 0;
       left: 0;
       right: 0;
-      border: 2px solid #F2F2F2;
+      border: 2px solid #f2f2f2;
     }
   }
 
@@ -346,7 +340,6 @@
     order: -1;
     text-align: center;
     margin-top: 7px;
-    max-width: qad;
     height: auto;
     max-width: 175px;
   }

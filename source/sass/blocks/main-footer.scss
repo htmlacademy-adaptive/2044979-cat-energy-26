@@ -1,5 +1,13 @@
 .main-footer {
-  background: #F2F2F2;
+  background-color: #f2f2f2;
+}
+
+.main-footer__map {
+  width: 100%;
+  height: 362px;
+  background: url("../img/map/location-mobile.png") no-repeat;
+  background-size: contain;
+  background-position: center 0;
 }
 
 .main-footer__location {
@@ -9,7 +17,7 @@
 }
 
 .main-footer__contacts--white {
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 .main-footer__wrapper {
@@ -17,7 +25,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #F2F2F2;
+  background: #f2f2f2;
 }
 
 .main-footer__right-link {
@@ -53,8 +61,10 @@
 }
 
 .main-footer__contacts {
+  padding: 10px 20px;
+  align-items: center;
+  background-color: #ffffff;
   display: flex;
-  padding: 0;
 }
 
 .main-footer__text {
@@ -65,32 +75,12 @@
   min-width: 139px;
 }
 
-.main-footer__link {
-  display: flex;
-  min-width: 28px;
-  min-height: 22px;
-  justify-content: center;
-  color: #666666;
-}
-
 .main-footer__adress {
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #444444;
 }
-
-.main-footer__contacts {
-  padding: 10px 20px;
-  display: flex;
-  align-items: center;
-  background-color: #FFFFFF;
-}
-
-.main-footer__html-logo {
-  margin-right: 140px;
-}
-
 
 .main-footer__logo-title:hover {
   opacity: 0.8;
@@ -100,45 +90,50 @@
   opacity: 0.6;
 }
 
-.main-footer__icon {
+.main-footer__link {
+  display: flex;
+  min-width: 28px;
+  min-height: 22px;
+  justify-content: center;
+  color: #666666;
   fill: #666666;
 }
 
 .main-footer__link:hover > .main-footer__icon {
-  color: #68B738;
+  fill: #68b738;
 }
 
 .main-footer__link:active > .main-footer__icon {
-  color: rgba(#68B738, 0.3);
+  fill: rgba(#68b738, 0.3);
 }
 
 .main-footer__html-academy {
-  fill: #666666;;
+  fill: #666666;
 }
 
 .main-footer__right-link:hover > .main-footer__html-academy {
-  fill: #68B738;
+  fill: #68b738;
 }
 
 .main-footer__right-link:active > .main-footer__html-academy {
-  fill: rgba(#68B738, 0.3);
+  fill: rgba(#68b738, 0.3);
 }
 
 .main-footer__html-logo {
-  fill: #444444;;
+  fill: #444444;
+  margin-right: 140px;
 }
 
 .main-footer__right-link:active > .main-footer__html-logo {
   fill: rgba(#444444, 0.3);
 }
 
-
 @media (min-width: 768px) {
   .main-footer__html-academy {
     display: block;
   }
 
-   .main-footer__container {
+  .main-footer__container {
     padding: 0 30px;
   }
 
@@ -159,7 +154,7 @@
   .main-footer__contacts {
     padding: 63px 71px;
     display: flex;
-    background: #F2F2F2;
+    background: #f2f2f2;
     align-items: flex-start;
   }
 
@@ -182,6 +177,17 @@
     padding: 59px 30px;
   }
 
+  .main-footer__map {
+    height: 400px;
+    background: url("../img/map/location-tablet.png") no-repeat;
+    background-size: contain;
+    background-position: center 0;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/map/location-tablet@2x.png");
+    }
+  }
+
   .main-footer__location {
     width: 100%;
     height: 400px;
@@ -189,10 +195,6 @@
 
   .main-footer__html-logo {
     margin-right: 22px;
-  }
-
-  .main-footer__map {
-    height: 400px;
   }
 }
 
@@ -202,7 +204,7 @@
     right: 50%;
     transform: translateX(-10%) translateY(95px);
     padding: 0;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
   }
 
   .main-footer__wrapper {
@@ -221,8 +223,19 @@
 
   .main-footer__transit {
     height: 400px;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     position: relative;
+  }
+
+  .main-footer__map {
+    height: 400px;
+    background: url("../img/map/location-desktop.png") no-repeat;
+    background-size: contain;
+    background-position: center 0;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/map/location-desktop@2x.png");
+    }
   }
 
   .main-footer__adress {
@@ -245,6 +258,4 @@
   .br {
     display: block;
   }
-
 }
-

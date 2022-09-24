@@ -1,5 +1,5 @@
 .main-nav {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
 }
 
 .main-nav__list {
@@ -41,7 +41,7 @@
 
 @media (max-width: 767px) {
   .main-nav__item {
-    border-top: 1px solid #E6E6E6;
+    border-top: 1px solid #e6e6e6;
   }
 }
 
@@ -61,7 +61,7 @@
       bottom: 0;
       width: 100%;
       height: 2px;
-      background-color: #68B738;
+      background-color: #68b738;
       content: "";
     }
   }
@@ -93,7 +93,7 @@
     }
   }
 
-  .main-nav__item--active::before{
+  .main-nav__item--active::before {
     top: 36px;
   }
 
@@ -114,10 +114,10 @@
   }
 
   .main-nav__link--color:active {
-    color: rgba(#FFFFFF, 0.3);
+    color: rgba(#ffffff, 0.3);
   }
 
   .main-nav__link--color:hover {
-    color: rgba(#FFFFFF, 0.6);
+    color: rgba(#ffffff, 0.6);
   }
 }

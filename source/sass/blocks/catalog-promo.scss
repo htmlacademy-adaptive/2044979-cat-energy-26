@@ -1,5 +1,5 @@
 .catalog-promo {
-  background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/catalog/mobile-cat.jpg");
+  background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/catalog/mobile-cat.jpg");
   position: relative;
   min-height: 289px;
   padding-top: 188px;
@@ -10,9 +10,9 @@
   margin-bottom: 38px;
 
   @media (min-resolution: 2dppx) {
-    background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/catalog/mobile-cat@2x.jpg");
-    }
+    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/catalog/mobile-cat@2x.jpg");
   }
+}
 
 .catalog-promo__icon {
   position: absolute;
@@ -43,22 +43,21 @@
     margin-top: 69px;
     margin-bottom: 76px;
     justify-content: flex-end;
-    background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/catalog/tablet-cat.jpg 1x") no-repeat center;
+    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/catalog/tablet-cat.jpg 1x") no-repeat center;
     background-size: cover;
 
 
     @media (min-resolution: 2dppx) {
-      background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/catalog/tablet-cat@2x.jpg");
+      background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/catalog/tablet-cat@2x.jpg");
     }
   }
-
 
   .catalog-promo__icon {
     left: 118px;
     top: 60px;
     width: 80px;
     height: 82px;
-}
+  }
 
   .catalog-promo__slogan {
     margin-right: 124px;
@@ -69,11 +68,11 @@
 
 @media (min-width: 1440px) {
   .catalog-promo {
-    background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/catalog/desktop-cat.jpg") no-repeat bottom;
+    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/catalog/desktop-cat.jpg") no-repeat bottom;
     background-size: cover;
 
     @media (min-resolution: 2dppx) {
-      background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/catalog/desktop-cat@2x.jpg");
+      background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/catalog/desktop-cat@2x.jpg");
     }
   }
 
@@ -82,7 +81,7 @@
     top: 64px;
     width: 80px;
     height: 82px;
-}
+  }
 
   .catalog-promo__slogan {
     margin: 196px 43px 39px 41px;

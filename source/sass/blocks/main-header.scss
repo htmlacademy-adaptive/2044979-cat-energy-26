@@ -88,6 +88,8 @@
 @media (min-width: 768px) {
   .main-header__logo-text {
     display: none;
+    margin-left: 35px;
+    margin-bottom: 1px;
   }
 
   .main-header {
@@ -110,11 +112,6 @@
 
   .main-header__page {
     padding: 24px 0 24px;
-  }
-
-  .main-header__logo-text {
-    margin-left: 35px;
-    margin-bottom: 1px;
   }
 }
 
