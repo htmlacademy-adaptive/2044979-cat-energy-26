@@ -15,7 +15,7 @@
   border-radius: 4px;
   cursor: pointer;
   background-color: #ffffff;
-  border: 1px solid #CDCDCD;
+  border: 1px solid #cdcdcd;
 }
 
 .control__input:checked + .control__mark--checkbox::before {
@@ -54,7 +54,7 @@
 }
 
 .control__text--additional {
-  margin-left: 46px
+  margin-left: 46px;
 }
 
 .control__text-context {
@@ -120,7 +120,7 @@
   .control__text-context {
     margin-left: 48px;
     margin-top: 5px;
-}
+  }
 
   .control__mark {
     top: -8px;
@@ -137,5 +137,5 @@
   .control__text--additional {
     margin-left: 18px;
     margin-top: -5px;
-}
+  }
 }

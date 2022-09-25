@@ -3,7 +3,7 @@
 }
 
 .form-program__title {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
   color: #000000;
   font-size: 36px;
@@ -24,9 +24,9 @@
   .form-program__title {
     color: #000000;
     font-size: 60px;
+    margin: 0;
     line-height: 60px;
     padding: 0;
-	  margin: 0;
   }
 
   .form-program__header {

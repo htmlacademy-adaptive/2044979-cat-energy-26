@@ -6,11 +6,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Интернет-магазин фитнес еды для котиков</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
   <link rel="icon" href="favicon.ico">
   <link rel="icon" href="img/favicons/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="img//favicons/apple.png">
   <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preload" href="fonts/oswaldregular.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/oswaldmedium.woff2" type="font/woff2" as="font" crossorigin="anonymous">
 </head>
 
 <body class="page__body">
@@ -62,12 +64,13 @@
           </a>
           <a class="card-feed__link-image" href="#">
             <picture>
-              <source type="image/webp" media="(min-width: 1440px)"
-                srcset="img/catalog/500-chicken-desktop.png 1x, img/catalog/500-chicken-desktop@2x.png 2x">
               <source type="image/webp" media="(min-width: 768px)"
+                srcset="img/catalog/500-chicken-tablet.webp 1x, img/catalog/catalog/500-chicken-tablet@2x.webp 2x">
+              <source type="image/webp" srcset="img/catalog/500-chicken.webp 1x, img/catalog/500-chicken@2x.webp 2x">
+              <source media="(min-width: 768px)"
                 srcset="img/catalog/500-chicken-tablet.png 1x, img/catalog/500-chicken-tablet@2x.png 2x">
-              <img class="card-feed__icon" src="img/catalog/500-chicken.png" srcset="img/catalog/500-chicken@2x.png 2x"
-                width="140" height="112" alt="Cat Energy PRO 500">
+              <img class="card-feed__icon" loading="lazy" src="img/catalog/500-chicken-tablet.jpg"
+                srcset="img/catalog/500-chicken-tablet@2x.jpg 2x" alt="Cat Energy PRO 500" width="140" height="112">
             </picture>
           </a>
           <dl class="card-feed__specification-list">
@@ -314,7 +317,7 @@
               </dl>
               <button class="additionally-feed__order-button button">заказать</button>
             </article>
-            <article class="additionally-feed__card additionally-feed__card--items">
+            <article class="additionally-feed__card additionally-feed__items">
               <h3 class="additionally-feed__title">
                 <a class="additionally-feed__link-title">Витамины</a>
               </h3>
@@ -380,16 +383,16 @@
             </a>
           </li>
           <li class="main-footer__item main-footer__item--telegramm">
-            <a class="main-footer__link" href="https://t.me/htmlacademy"">
-                <svg class=" main-footer__icon" width="20" height="18" viewBox="0 0 20 18"
-              xmlns="http://www.w3.org/2000/svg">
-              <use xlink:href="./img/sprite.svg#telegram-icon"></use>
+            <a class="main-footer__link" href="https://t.me/htmlacademy">
+              <svg class="main-footer__icon" width="20" height="18" viewBox="0 0 20 18"
+                xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="./img/sprite.svg#telegram-icon"></use>
               </svg>
             </a>
           </li>
         </ul>
         <div class="main-footer__rights">
-          <a class="main-footer__right-link" href="https://htmlacademy.ru/study">
+          <a class="main-footer__right-link" href="https://htmlacademy.ru/intensive/adaptive">
             <svg class="main-footer__html-logo" width="113" height="16" viewBox="0 0 113 16" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
@@ -405,6 +408,9 @@
           </a>
         </div>
       </div>
+    </div>
   </footer>
   <script src="js/script.js"></script>
 </body>
+
+</html>

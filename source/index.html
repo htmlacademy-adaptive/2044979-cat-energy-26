@@ -5,13 +5,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Интернет-магазин фитнес еды для котиков</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
   <link rel="icon" href="favicon.ico">
   <link rel="icon" href="img/favicons/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="img//favicons/apple.png">
   <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preload" href="fonts/oswaldregular.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/oswaldmedium.woff2" type="font/woff2" as="font" crossorigin="anonymous">
 </head>
-
 <body class="page__body">
   <header class="main-header">
     <div class="main-header__page main-header__page--closed main-header__page--nojs">
@@ -160,8 +161,8 @@
             </picture>
           </div>
           <div class="example__toggler">
-            <h2 class="visually-hidden">Переключатель на до и после похудния</h2>
-            <svg class="example__switch" viewBox="0 0 24 12" xmlns="http://www.w3.org/2000/svg">
+            <h2 class="visually-hidden">Кнопка переключения на до и после похудния</h2>
+            <svg class="example__switch" width="24" height="18" xmlns="http://www.w3.org/2000/svg">
               <use xlink:href="./img/sprite.svg#switch"></use>
             </svg>
           </div>
@@ -214,16 +215,16 @@
             </a>
           </li>
           <li class="main-footer__item main-footer__item--telegramm">
-            <a class="main-footer__link" href="https://t.me/htmlacademy"">
-                <svg class=" main-footer__icon" width="20" height="18" viewBox="0 0 20 18"
-              xmlns="http://www.w3.org/2000/svg">
-              <use xlink:href="./img/sprite.svg#telegram-icon"></use>
+            <a class="main-footer__link" href="https://t.me/htmlacademy">
+              <svg class="main-footer__icon" width="20" height="18" viewBox="0 0 20 18"
+                xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="./img/sprite.svg#telegram-icon"></use>
               </svg>
             </a>
           </li>
         </ul>
         <div class="main-footer__rights">
-          <a class="main-footer__right-link" href="https://htmlacademy.ru/study">
+          <a class="main-footer__right-link" href="https://htmlacademy.ru/intensive/adaptive">
             <svg class="main-footer__html-logo" width="113" height="16" viewBox="0 0 113 16" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path
@@ -239,6 +240,7 @@
           </a>
         </div>
       </div>
+    </div>
   </footer>
   <script src="js/script.js"></script>
 </body>
