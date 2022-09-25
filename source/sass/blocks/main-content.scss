@@ -4,12 +4,11 @@
 
 .main-content__header {
   padding: 28px 20px 39px;
-  border-top: 1px solid #D9D9D9;
-  border-bottom: 1px solid #D9D9D9;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .main-content__title {
-  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
@@ -25,7 +24,6 @@
   }
 
   .main-content__title {
-    font-family: "Oswald", sans-serif;
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;
@@ -39,7 +37,6 @@
     gap: 60px;
     margin-bottom: 68px;
   }
-
 }
 
 @media (min-width: 1440px) {

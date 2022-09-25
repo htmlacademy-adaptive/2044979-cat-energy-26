@@ -1,14 +1,14 @@
 .main-container {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
-  background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/index-background-desktop.jpg");
+  background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/index-background-desktop.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: 320px 302px;
 
   @media (min-resolution: 2dppx) {
-    background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/index-background-desktop@2x.jpg 2x");
+    background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/index-background-desktop@2x.jpg 2x");
   }
 }
 
@@ -33,19 +33,18 @@
   font-size: 36px;
   line-height: 36px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 28px;
   margin-top: 0;
   padding: 0;
 }
 
 .main-container__subtitle {
-  margin-bottom: 29px;
   font-size: 14px;
   line-height: 14px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0;
 }
 
@@ -93,7 +92,6 @@
   }
 
   .main-container__subtitle {
-    margin-bottom: 49px;
     font-size: 20px;
     line-height: 20px;
     text-align: left;
@@ -125,17 +123,16 @@
       top: 0;
       right: 0;
       content: "";
-      background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/index-big-cat.jpg");
+      background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/index-big-cat.jpg");
       background-size: cover;
       z-index: -1;
 
-
-   @media (min-resolution: 2dppx) {
-    background-image: linear-gradient(rgba(104, 183, 56, 0.85),rgba(104, 183, 56, 0.85)), url("../img/index-big-cat@2x.jpg");
-    background-size: cover;
+      @media (min-resolution: 2dppx) {
+        background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/index-big-cat@2x.jpg");
+        background-size: cover;
+      }
     }
   }
-}
 
   .main-container__title {
     max-width: 417px;

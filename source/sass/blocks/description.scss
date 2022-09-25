@@ -21,7 +21,7 @@
 }
 
 .description__title {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 40px;
@@ -63,7 +63,7 @@
     left: 0;
     width: 60px;
     height: 60px;
-    background-color: #68B738;
+    background-color: #68b738;
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -107,71 +107,66 @@
       height: 80px;
       top: 2px;
     }
-}
-
-.description__br {
-  display: block;
-}
-
-.description__title {
-  font-size: 60px;
-  line-height: 60px;
-  margin-bottom: 68px;
-  width: 375px;
-}
-
-.description__text {
-  font-family: "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-  color: #444444;
-  margin: 0;
-  padding: 0;
-}
-
-.description__br {
-  display: block;
-}
-
-.description__wrapper {
-  padding: 45px 30px 31px;
-  border-bottom: 1px solid #E6E6E6;
-}
-
-.description__list {
-  row-gap: 65px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  column-gap: 50px;
-  padding-right: 75px;
-  justify-content: space-between;
-  counter-reset: number 0;
-}
-
-.description__item {
-  width: 249px;
-  padding: 114px 0 69px 0;
-  counter-increment: number;
-  position: relative;
-
-  &::after {
-    font-family: "Oswald", sans-serif;
-    font-weight: 400;
-    font-size: 280px;
-    line-height: 210px;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    content: counter(number);
-    position: absolute;
-    top: 0;
-    left: 47%;
-    z-index: -1;
-    color: #F2F2F2;
-    }
   }
 
+  .description__title {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 68px;
+    width: 375px;
+  }
+
+  .description__text {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #444444;
+    margin: 0;
+    padding: 0;
+  }
+
+  .description__br {
+    display: block;
+  }
+
+  .description__wrapper {
+    padding: 45px 30px 31px;
+    border-bottom: 1px solid #e6e6e6;
+  }
+
+  .description__list {
+    row-gap: 65px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    padding-right: 75px;
+    justify-content: space-between;
+    counter-reset: number 0;
+  }
+
+  .description__item {
+    width: 249px;
+    padding: 114px 0 69px 0;
+    counter-increment: number;
+    position: relative;
+
+    &::after {
+      font-family: "Oswald", "Arial", sans-serif;
+      font-weight: 400;
+      font-size: 280px;
+      line-height: 210px;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      content: counter(number);
+      position: absolute;
+      top: 0;
+      left: 47%;
+      z-index: -1;
+      color: #f2f2f2;
+    }
+  }
 }
 
 @media (min-width: 1440px) {
@@ -182,7 +177,6 @@
     border: none;
   }
 
-
   .description__item--healthy,
   .description__item--cooking,
   .description__item--eat,
@@ -190,12 +184,12 @@
     &::before {
       top: 10px;
       left: 1px;
+    }
   }
-}
 
   .description__title {
     margin-bottom: 63px;
-}
+  }
 
   .description__item {
     width: 249px;

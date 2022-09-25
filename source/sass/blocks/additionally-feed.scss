@@ -1,11 +1,11 @@
-.additionally-feed{
+.additionally-feed {
   position: relative;
 
   &::before {
     content: "";
     width: 100%;
     height: 2px;
-    background-color: #68B738;
+    background-color: #68b738;
     position: absolute;
     top: 21px;
     z-index: -1;
@@ -17,19 +17,17 @@
   display: grid;
   align-items: center;
   padding-bottom: 15px;
-  border-top: 1px solid #CDCDCD;
+  border-top: 1px solid #cdcdcd;
   margin-top: -2px;
 }
 
 .additionally-feed__text {
-  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
   color: #000000;
   margin: 25px 22px 36px 20px;
   padding: 0;
-
 }
 
 .additionally-feed__title {
@@ -38,7 +36,6 @@
 }
 
 .additionally-feed__link-title {
-  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -48,9 +45,9 @@
   padding: 0;
 }
 
-.additionally-feed__card--items {
+.additionally-feed__items {
   padding-bottom: 15px;
-  border-bottom: 1px solid #CDCDCD;
+  border-bottom: 1px solid #cdcdcd;
 }
 
 .additionally-feed__value {
@@ -87,7 +84,7 @@
 }
 
 @media (min-width: 768px) {
-  .additionally-feed{
+  .additionally-feed {
     position: relative;
   }
 
@@ -118,7 +115,7 @@
     justify-content: space-between;
     padding: 25px 36px;
     box-sizing: border-box;
-    border: 1px solid #CDCDCD;
+    border: 1px solid #cdcdcd;
   }
 
   .additionally-feed__link-title {
@@ -150,7 +147,7 @@
   }
 
   .additionally-feed__card {
-    border-top: 1px solid #CDCDCD;
+    border-top: 1px solid #cdcdcd;
     padding: 15px 0 15px;
     border-left: none;
     border-right: none;

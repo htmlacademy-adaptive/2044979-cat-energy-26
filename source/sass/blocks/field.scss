@@ -11,7 +11,7 @@
 }
 
 .field__input {
-font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
   line-height: 18px;
   width: 100%;
@@ -20,7 +20,7 @@ font-family: "Oswald", sans-serif;
   margin-left: 17px;
   padding: 14px 14px 14px;
   border: none;
-  outline: 1px solid #E7E7E7;
+  outline: 1px solid #e7e7e7;
 }
 
 .field__input:invalid:not(:placeholder-shown) {
@@ -36,6 +36,9 @@ font-family: "Oswald", sans-serif;
   right: 15px;
   position: absolute;
   stroke: #222222;
+  width: 19px;
+  height: 14px;
+  fill: #ffffff;
 }
 
 .field__input:focus:not(.field__input:disabled) {
@@ -71,6 +74,8 @@ font-family: "Oswald", sans-serif;
   right: 15px;
   position: absolute;
   color: #444444;
+  width: 20px;
+  height: 20px;
 }
 
 @media (min-width: 768px) {

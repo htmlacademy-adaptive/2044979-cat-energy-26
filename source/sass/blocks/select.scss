@@ -12,7 +12,7 @@
   margin: 0;
   padding: 36px 33px 17px 21px;
   color: #444444;
-  background: #F2F2F2;
+  background: #f2f2f2;
   position: relative;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .select__title {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 24px;
   line-height: 37px;
   color: #000000;
@@ -61,12 +61,12 @@
   margin: 0;
   margin-bottom: 12px;
   color: #444444;
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid #d9d9d9;
   padding-bottom: 20px;
 }
 
 .select__link {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
   line-height: 16px;
   padding: 0;
@@ -98,7 +98,7 @@
 @media (min-width: 768px) {
   .select {
     position: relative;
- }
+  }
 
   .select__programm {
     padding: 0 30px;
@@ -119,7 +119,7 @@
     }
   }
 
-   .select__item--pro {
+  .select__item--pro {
     &::before {
       width: 268px;
       height: 200px;
@@ -154,8 +154,8 @@
   }
 
   .select__arrow {
-      transform: translateY(10px);
-      margin-left: 25px;
+    transform: translateY(10px);
+    margin-left: 25px;
   }
 
   .select__link:hover .select__arrow {
@@ -166,7 +166,7 @@
 @media (min-width: 1440px) {
   .select {
     position: relative;
- }
+  }
 
   .select__programm {
     max-width: 1220px;
@@ -176,44 +176,44 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    }
+  }
 
   .select__item {
     max-width: 570px;
     padding: 76px 51px 60px 52px;
     position: relative;
-    }
+  }
 
-    .select__item--slim {
-      &::before {
-        width: 100px;
-        height: 106px;
-        top: 40px;
-        left: 51px;
-      }
+  .select__item--slim {
+    &::before {
+      width: 100px;
+      height: 106px;
+      top: 40px;
+      left: 51px;
     }
+  }
 
-    .select__item--pro {
-      &::before {
-        width: 134px;
-        height: 100px;
-        top: 44px;
-        left: 33px;
-      }
+  .select__item--pro {
+    &::before {
+      width: 134px;
+      height: 100px;
+      top: 44px;
+      left: 33px;
     }
+  }
 
-    .select__title {
-      font-size: 36px;
-      line-height: 36px;
-      text-align: left;
-      margin-bottom: 73px;
-      padding-left: 162px;
-    }
+  .select__title {
+    font-size: 36px;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 73px;
+    padding-left: 162px;
+  }
 
-    .select__text {
-      font-size: 16px;
-      line-height: 24px;
-      color: #000000;
-      margin-bottom: 23px;
+  .select__text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 23px;
   }
 }
