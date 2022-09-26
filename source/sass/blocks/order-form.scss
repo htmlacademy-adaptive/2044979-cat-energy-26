@@ -15,6 +15,7 @@
   padding: 0;
   margin: 0;
   gap: 13px;
+  width: 280px;
 }
 
 .order-form__fields--contacts .order-form__field-input {
@@ -161,6 +162,7 @@
 
   .order-form__fields {
     gap: 21px;
+    width: 632px;
   }
 
   .order-form__supply {
@@ -174,14 +176,26 @@
 
   .order-form__fieldset--contacts {
     margin-bottom: 68px;
+
+    &::before {
+      top: 21px;
+    }
   }
 
   .order-form__fieldset--description {
     margin-bottom: 60px;
+
+    &::before {
+      top: 21px;
+    }
   }
 
   .order-form__fieldset--additional {
     margin-bottom: 54px;
+
+    &::before {
+      top: 24px;
+    }
   }
 
   .order-form__fields--additional {
@@ -295,12 +309,24 @@
     padding: 0;
   }
 
+  .order-form__textarea {
+    width: 1220px;
+  }
+
   .order-form__fieldset--contacts {
     margin-bottom: 69px;
+
+    ::before {
+      top: 20px;
+    }
   }
 
   .order-form__fieldset--description {
     margin-bottom: 67px;
+
+    ::before {
+      top: 25px;
+    }
   }
 
   .order-form__fields--contacts {
@@ -330,14 +356,6 @@
     margin-top: -8px;
   }
 
-  .order-form__fieldset--contacts::before {
-    top: 24px;
-  }
-
-  .order-form__fieldset--description::before {
-    top: 25px;
-  }
-
   .order-form__title--contacts {
     width: 534px;
     margin-bottom: 75px;
@@ -359,7 +377,7 @@
     margin-bottom: 66px;
 
     &::before {
-      top: 24px;
+      top: 18px;
     }
   }
 
