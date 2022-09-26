@@ -13,6 +13,7 @@
   <link rel="preload" href="fonts/oswaldregular.woff2" type="font/woff2" as="font" crossorigin="anonymous">
   <link rel="preload" href="fonts/oswaldmedium.woff2" type="font/woff2" as="font" crossorigin="anonymous">
 </head>
+
 <body class="page__body">
   <header class="main-header">
     <div class="main-header__page main-header__page--closed main-header__page--nojs">
@@ -56,10 +57,16 @@
         <h2 class="main-container__title">Функциональное питание для котов</h2>
         <p class="main-container__subtitle">Занялся собой? Займись котом!</p>
         <picture>
-          <source media="(min-width: 1440px)" srcset="img/index/desktop-promo.png, img/index/desktop-promo@2x.png 2x">
-          <source media="(min-width: 768px)" srcset="img/index/tablet-promo.png, img/index/tablet-promo@2x.png 2x">
-          <img class="main-container__picture" src="img/index/mobile-promo.png"
-            srcset="img/index/mobile-promo@2x.png 2x" width="280" height="270" alt="Продукция">
+          <source type="image/webp" media="(min-width: 1440px)"
+            srcset="./img/index/desktop-promo.webp 1x, ./img/index/desktop-promo@2x.webp 2x">
+          <source type="image/webp" media="(min-width: 768px)"
+            srcset="./img/index/tablet-promo.webp 1x, ./img/index/tablet-promo@2x.webp 2x">
+          <source type="image/webp" srcset="./img/index/mobile-promo.webp 1x, ./img/index/mobile-promo@2x.webp 2x">
+          <source media="(min-width: 1440px)"
+            srcset="./img/index/desktop-promo.png 1x, ./img/index/desktop-promo@2x.png 2x">
+          <source media="(min-width: 768px)" srcset="./img/index/tablet-promo.png 1x, ./img/index/tablet-promo@2x.png 2x">
+          <img class="main-container__picture" src="./img/index/mobile-promo.png"
+            srcset="./img/index/mobile-promo@2x.png 2x" width="280" height="270" alt="Продукция">
         </picture>
         <button class="main-container__button button" type="button">Подобрать программу</button>
       </header>
@@ -146,18 +153,26 @@
         <div class="example__result">
           <div class="example__pictuer">
             <picture>
+              <source type="image/webp" media="(min-width: 768px)"
+                srcset="./img/index/before-meals-tablet.webp 1x, ./img/index/before-meals-tablet@2x.webp 2x">
+              <source type="image/webp"
+                srcset="./img/index/before-meals-mobile.webp 1x, ./img/index/before-meals-mobile@2x.webp 2x">
               <source media="(min-width: 768px)"
-                srcset="img/index/before-meals-tablet.png, img/index/before-meals-tablet@2x.png 2x">
-              <img class="example__before" src="img/index/before-meals-mobile.png"
-                srcset="img/index/before-meals-mobile2x.png 2x" width="280" height="240" alt="До похудения">
+                srcset="./img/index/before-meals-tablet.png 1x, ./img/index/before-meals-tablet@2x.png 2x">
+              <img class="example__before" src="./img/index/before-meals-mobile.png"
+                srcset="./img/index/before-meals-mobile2x.png 2x" width="280" height="240" alt="До похудения">
             </picture>
           </div>
           <div class="example__meals">
             <picture>
+              <source type="image/webp" media="(min-width: 768px)"
+                srcset="./img/index/after-meals-tablet.webp 1x, ./img/index/after-meals-tablet@2x.webp 2x">
+              <source type="image/webp"
+                srcset="./img/index/after-meals-mobile.webp 1x, ./img/index/after-meals-mobile@2x.webp 2x">
               <source media="(min-width: 768px)"
-                srcset="img/index/after-meals-tablet.png, img/index/after-meals-tablet@2x.png 2x">
-              <img class="example__after" src="img/index/after-meals-mobile.png"
-                srcset="img/index/after-meals-mobile@2x.png 2x" width="280" height="240" alt="После похудения">
+                srcset="./img/index/after-meals-tablet.png, ./img/index/after-meals-tablet@2x.png 2x">
+              <img class="example__after" src="./img/index/after-meals-mobile.png"
+                srcset="./img/index/after-meals-mobile@2x.png 2x" width="280" height="240" alt="После похудения">
             </picture>
           </div>
           <div class="example__toggler">

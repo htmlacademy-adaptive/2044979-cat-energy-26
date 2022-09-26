@@ -163,8 +163,13 @@
     gap: 21px;
   }
 
+  .order-form__supply {
+    padding: 0;
+  }
+
   .order-form__fields--program {
     gap: 12px;
+    padding: 0;
   }
 
   .order-form__fieldset--contacts {
@@ -266,6 +271,13 @@
     margin: 0 auto;
   }
 
+  .order-form__fields--additional {
+    display: grid;
+    grid-template-columns: repeat(4, 221px);
+    column-gap: 104px;
+    height: auto;
+  }
+
   .order-form__wrapper {
     display: grid;
     grid-template-columns: 569px 571px;
@@ -341,7 +353,6 @@
   }
 
   .order-form__fieldset--additional {
-    display: grid;
     grid-template-columns: repeat(4, 221px);
     column-gap: 104px;
     height: auto;

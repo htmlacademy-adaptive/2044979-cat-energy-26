@@ -137,14 +137,6 @@
   background-color: #eaeaea;
 }
 
-.example__switch {
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  fill: #666666;
-}
-
 .example__value {
   margin-left: 5px;
 }
@@ -159,10 +151,6 @@
 }
 
 .example__toggler:hover > .example__switch {
-  fill: #68b738;
-}
-
-.example__toggler:active > .example__switch {
   fill: #68b738;
 }
 
