@@ -174,7 +174,18 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 59px 30px;
+    padding: 53px 30px;
+  }
+
+  .main-footer__map {
+    height: 400px;
+    background: url("../img/map/location-tablet.png") no-repeat;
+    background-size: contain;
+    background-position: center 0;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/map/location-tablet@2x.png");
+    }
   }
 
   .main-footer__map {

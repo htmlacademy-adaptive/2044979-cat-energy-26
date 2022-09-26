@@ -137,16 +137,16 @@
   background-color: #eaeaea;
 }
 
+.example__value {
+  margin-left: 5px;
+}
+
 .example__switch {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
   fill: #666666;
-}
-
-.example__value {
-  margin-left: 5px;
 }
 
 .example__toggler:hover > .example__switch {
